@@ -41,6 +41,13 @@
 - aile-154 Pedagojik Derinleştirme (§2950–2953, agy önerisi): Mayer kontrol listesi, kavram yanılgısı kalkanı, Bloom×biçim matrisi, UDL uyarlamaları. (Kazanım-kod indeks önerisi uygulanmadı: kodlar resmî listeden alınmadan yazılamaz.)
 - aile-155 Okul Öncesi galerisi (§2954–2958): renkler, şekil avı, hayvan sesleri, hava penceresi, hikâye tohumu.
 
+## 2026-09-04 — İngilizce tamamlama ve §19 bağlantıları
+
+- §3 karar tablosuna İngilizce sütunu eklendi (`/cutaway`, `/visual-study-notes` gerçek kısayol; diğerleri düz terim).
+- §37 biçim tablosundaki biçim adlarına İngilizce karşılık eklendi.
+- `sec-19` çapası açıldı; 120 düz `(§19)` atfı tıklanabilir bağlantıya çevrildi (dosya-duyarlı).
+- §2652 yazım hatası düzeltildi (“etilmeli” → “edilmeli”).
+
 ## 2026-09-04 — Dayanışma girişi ve lisans
 
 - “Süleyman’a Umut Ol” kampanya metni indeks dosyasının başına aynen eklendi (`#suleymana-umut-ol` çıpasıyla).

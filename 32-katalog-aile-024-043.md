@@ -1682,7 +1682,7 @@ Amaç:
 
 ## Neye dikkat edilmeli?
 
-**`/language-ab-test`** biçiminde iki tarafın aynı ölçek, aynı açı ve benzer ışıkla gösterilmesi karşılaştırmanın ön koşuludur; ölçek farklıysa fark abartılır veya silinir. Model yan yana koyduğu iki örneği ayrı stillerde üretebilir; stil farkı bilginin parçası değilse promptta kısıtlanır. Şüphe hâlinde yeniden üretin ya da biçim değiştirin (§19).
+**`/language-ab-test`** biçiminde iki tarafın aynı ölçek, aynı açı ve benzer ışıkla gösterilmesi karşılaştırmanın ön koşuludur; ölçek farklıysa fark abartılır veya silinir. Model yan yana koyduğu iki örneği ayrı stillerde üretebilir; stil farkı bilginin parçası değilse promptta kısıtlanır. Şüphe hâlinde yeniden üretin ya da biçim değiştirin ([§19](10-temeller-001-222.md#sec-19)).
 
 ---
 

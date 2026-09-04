@@ -2197,7 +2197,7 @@ gibi ayrı ürünleri aynı şehir koleksiyonu altında birleştirebilir.
 
 ## Neye dikkat edilmeli?
 
-**Şehir koleksiyon kimliği** sonucunda soru şudur: bu görsel konuyu daha mı kolay kılıyor, daha mı karmaşık hâle getiriyor? Cevap belirsizse yönergeyi tek cümleyle sadeleştirip yeniden üretin. Şüphe hâlinde yeniden üretin ya da biçim değiştirin (§19).
+**Şehir koleksiyon kimliği** sonucunda soru şudur: bu görsel konuyu daha mı kolay kılıyor, daha mı karmaşık hâle getiriyor? Cevap belirsizse yönergeyi tek cümleyle sadeleştirip yeniden üretin. Şüphe hâlinde yeniden üretin ya da biçim değiştirin ([§19](10-temeller-001-222.md#sec-19)).
 
 ---
 

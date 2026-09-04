@@ -2303,7 +2303,7 @@ Bu yüzden her referans açık role sahip olmalıdır.
 
 ## Neye dikkat edilmeli?
 
-Işık yönü, gölge sertliği ve gren iki kaynakta eşleşsin; eşleşmiyorsa önce ışık cümlesini sabitleyip tek değişiklikle ilerleyin (§19).
+Işık yönü, gölge sertliği ve gren iki kaynakta eşleşsin; eşleşmiyorsa önce ışık cümlesini sabitleyip tek değişiklikle ilerleyin ([§19](10-temeller-001-222.md#sec-19)).
 
 ---
 # 2105. `/couple-photo-merge` — İki Selfie’den Doğal Çift Fotoğrafı
@@ -2505,7 +2505,7 @@ Burada hedef:
 
 ## Neye dikkat edilmeli?
 
-Işık yönü, gölge sertliği ve gren iki kaynakta eşleşsin; eşleşmiyorsa önce ışık cümlesini sabitleyip tek değişiklikle ilerleyin (§19).
+Işık yönü, gölge sertliği ve gren iki kaynakta eşleşsin; eşleşmiyorsa önce ışık cümlesini sabitleyip tek değişiklikle ilerleyin ([§19](10-temeller-001-222.md#sec-19)).
 
 ---
 # 2112. `/headshot-family` — Aynı Sistemle Çoklu Headshot

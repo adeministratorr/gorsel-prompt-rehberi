@@ -794,7 +794,7 @@ Oran ayarı araçtan araca farklı üç yolla yapılır:
 
 > Regenerate this diagram in a 16:9 landscape ratio; keep all labels inside the frame.
 
-## Neye dikkat etilmeli?
+## Neye dikkat edilmeli?
 
 Oran değişikliği "kırp" değil "yeniden kompozisyon" istemektir. Modelden kırpma değil, orana uygun yeniden yerleşim istemek etiket kaybını önler.
 
@@ -6002,7 +6002,7 @@ Bu aile, biçim seçimlerinin altındaki öğrenme bilimini metin düzeyinde top
 
 ## Neye dikkat edilmeli?
 
-Bu liste §18'in yerine değil, önüne geçer: önce yük azaltılır, sonra doğruluk denetlenir. Beş maddenin üçü tutmuyorsa biçim değiştirilir (§19).
+Bu liste §18'in yerine değil, önüne geçer: önce yük azaltılır, sonra doğruluk denetlenir. Beş maddenin üçü tutmuyorsa biçim değiştirilir ([§19](10-temeller-001-222.md#sec-19)).
 
 ---
 
