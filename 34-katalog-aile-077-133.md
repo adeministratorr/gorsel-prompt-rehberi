@@ -1320,6 +1320,7 @@ Bu nedenle mirror selfie, yalnız “selfie style” değil:
 
 ---
 
+<a id="sec-2307"></a>
 # 2307. `/mirror-selfie` — Genel Ayna Selfie’si
 
 *Rehber kısayolu: `/mirror`.*
@@ -1978,6 +1979,7 @@ Bu aile daha önceki genel diorama ve miniature bölümlerinden farklı olarak:
 
 ---
 
+<a id="sec-2329"></a>
 # 2329. `/tiny-world-jar` — Kavanoz İçinde Minyatür Dünya
 
 ## Türkçe prompt
@@ -2314,6 +2316,7 @@ taşır.
 
 ---
 
+<a id="sec-2340"></a>
 # 2340. `/fashion-doll` — Selfie’den Fashion Doll
 
 ## Türkçe prompt
@@ -2698,7 +2701,7 @@ Bu terim daha önceki `/0.5x-phone` capture-source terimiyle akrabadır; burada 
 
 ## Neye dikkat edilmeli?
 
-0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir (§2307).
+0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir ([§2307](#sec-2307)).
 
 ---
 # 2353. `/fisheye-mirror-selfie` — Fisheye Ayna Selfie’si
@@ -2738,7 +2741,7 @@ Bu terim daha önceki `/0.5x-phone` capture-source terimiyle akrabadır; burada 
 
 ## Neye dikkat edilmeli?
 
-0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir (§2307).
+0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir ([§2307](#sec-2307)).
 
 ---
 # 2354. `/low-angle-0.5-selfie` — Alttan 0.5× Selfie
@@ -2763,7 +2766,7 @@ Bu terim daha önceki `/0.5x-phone` capture-source terimiyle akrabadır; burada 
 
 ## Neye dikkat edilmeli?
 
-0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir (§2307).
+0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir ([§2307](#sec-2307)).
 
 ---
 # 2355. `/close-lens-selfie` — Lense Çok Yakın Selfie
@@ -2796,7 +2799,7 @@ Bu terim daha önceki `/0.5x-phone` capture-source terimiyle akrabadır; burada 
 
 ## Neye dikkat edilmeli?
 
-0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir (§2307).
+0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir ([§2307](#sec-2307)).
 
 ---
 # 2356. `/ordinary-phone-selfie` — Bilinçli Sıradan Telefon Selfie’si
@@ -2831,7 +2834,7 @@ dir.
 
 ## Neye dikkat edilmeli?
 
-0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir (§2307).
+0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir ([§2307](#sec-2307)).
 
 ---
 # 2357. `/pet-photobomb-selfie` — Evcil Hayvan Photobomb Selfie
@@ -2896,7 +2899,7 @@ dir.
 
 ## Neye dikkat edilmeli?
 
-0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir (§2307).
+0.5× gerilmesi kenarlarda kalsın, yüz oranları korunsun; aynalı karede yansıma geometrisi ayrıca denetlenir ([§2307](#sec-2307)).
 
 ---
 # 2359. `/selfie-perspective-lock` — Selfie Perspektifi Kilidi
@@ -2948,6 +2951,7 @@ Ana yapı:
 
 ---
 
+<a id="sec-2361"></a>
 # 2361. `/korean-four-cut` — Korean Four-Cut Photo Strip
 
 ## Türkçe prompt
@@ -3215,6 +3219,7 @@ Buradaki doğruluk sınırı çok önemlidir:
 
 ---
 
+<a id="sec-2370"></a>
 # 2370. `/newspaper-front-page` — Gazete Ön Sayfası
 
 ## Türkçe prompt
@@ -4658,6 +4663,7 @@ Sleeve, plak ve etiket aynı tasarım sisteminde olsun; ölçek hatası (plaktan
 Sleeve, plak ve etiket aynı tasarım sisteminde olsun; ölçek hatası (plaktan büyük kapak) kontrol edilsin.
 
 ---
+<a id="sec-2417"></a>
 # 2417. `/album-cover-slop-filter` — Albüm Kapağı AI Slop Filtresi
 
 Kaçınılması gerekenler:
@@ -4671,7 +4677,7 @@ Kaçınılması gerekenler:
 - text hallucination,
 - aynı kapağı plak yüzeyine yapıştırmak.
 
-*Benzer: §1054 — tür klişelerine odaklı birinci filtre.*
+*Benzer: [§1054](30-katalog-aile-009-016.md#sec-1054) — tür klişelerine odaklı birinci filtre.*
 
 ---
 
@@ -4853,7 +4859,7 @@ Aynı albüm bütün formatlarda aynı kimlikte kalsın; format ölçüleri ger�
 
 ## Neye dikkat edilmeli?
 
-Kimlik bütün yaşlarda ve kişilerde karışmasın; hangi yüzün kime ait olduğu promptta adıyla belirtilsin (§2623 kimlik kuralı).
+Kimlik bütün yaşlarda ve kişilerde karışmasın; hangi yüzün kime ait olduğu promptta adıyla belirtilsin ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623) kimlik kuralı).
 
 ---
 # 2423. `/three-generations-self` — Üç Yaş Dönemi
@@ -4882,7 +4888,7 @@ Kimlik bütün yaşlarda ve kişilerde karışmasın; hangi yüzün kime ait old
 
 ## Neye dikkat edilmeli?
 
-Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
+Kişi sayısı promptta sabitlensin ([§2429](#sec-2429)); yüzler birbirine karışmasın.
 
 ---
 # 2424. `/real-generations-portrait` — Gerçek Aile Nesilleri
@@ -4907,7 +4913,7 @@ Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
 
 ## Neye dikkat edilmeli?
 
-Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
+Kişi sayısı promptta sabitlensin ([§2429](#sec-2429)); yüzler birbirine karışmasın.
 
 ---
 # 2425. `/generational-lineup` — Yaş Sıralı Lineup
@@ -4930,7 +4936,7 @@ Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
 
 ## Neye dikkat edilmeli?
 
-Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
+Kişi sayısı promptta sabitlensin ([§2429](#sec-2429)); yüzler birbirine karışmasın.
 
 ---
 # 2426. `/generational-slop-filter` — Nesiller Portresi Filtresi
@@ -4999,7 +5005,7 @@ Bu formatın en zor noktası:
 
 ## Neye dikkat edilmeli?
 
-Kimlik bütün yaşlarda ve kişilerde karışmasın; hangi yüzün kime ait olduğu promptta adıyla belirtilsin (§2623 kimlik kuralı).
+Kimlik bütün yaşlarda ve kişilerde karışmasın; hangi yüzün kime ait olduğu promptta adıyla belirtilsin ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623) kimlik kuralı).
 
 ---
 # 2428. `/group-row-portrait` — Tek Sıralı Grup
@@ -5022,9 +5028,10 @@ Kimlik bütün yaşlarda ve kişilerde karışmasın; hangi yüzün kime ait old
 
 ## Neye dikkat edilmeli?
 
-Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
+Kişi sayısı promptta sabitlensin ([§2429](#sec-2429)); yüzler birbirine karışmasın.
 
 ---
+<a id="sec-2429"></a>
 # 2429. `/group-count-lock` — Kişi Sayısı Kilidi
 
 ## Türkçe
@@ -5045,7 +5052,7 @@ Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
 
 ## Neye dikkat edilmeli?
 
-Kişi sayısı promptta sabitlensin (§2429); yüzler birbirine karışmasın.
+Kişi sayısı promptta sabitlensin ([§2429](#sec-2429)); yüzler birbirine karışmasın.
 
 ---
 # 2430. `/group-studio-slop-filter` — Grup Portre Filtresi
@@ -10974,7 +10981,7 @@ Ana ayrım:
 
 Bu aile, rehberdeki slash-style etiketlerin (`/lego`, `/figurine`, `/cutaway`, `/film-noir-portrait` …) en yaygın iki üretim ortamında — **ChatGPT (GPT Image)** ve **Gemini (Nano Banana / Nano Banana Pro)** — nasıl kullanılacağını ve iki modelin aynı etikete nasıl farklı tepki verdiğini ele alır.
 
-§891'deki ayrım burada da temel kabuldür: bu etiketler hiçbir modelin resmî komutu değildir. Model etiketi prompt metni olarak okur ve stil talimatı olarak yorumlar. Aynı etiket iki modelde de çalışır; farklı olan hız, kimlik korunumu, metin yazma başarısı ve varsayılan estetiktir.
+[§891](30-katalog-aile-009-016.md#sec-891)'deki ayrım burada da temel kabuldür: bu etiketler hiçbir modelin resmî komutu değildir. Model etiketi prompt metni olarak okur ve stil talimatı olarak yorumlar. Aynı etiket iki modelde de çalışır; farklı olan hız, kimlik korunumu, metin yazma başarısı ve varsayılan estetiktir.
 
 ## Bu ailede
 

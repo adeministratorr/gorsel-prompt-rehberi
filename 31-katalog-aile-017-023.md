@@ -571,6 +571,7 @@ Tek ışık mantığı: gölge yönü, sertliği ve renk ısısı bütün öğel
 Tek ışık mantığı: gölge yönü, sertliği ve renk ısısı bütün öğelerde aynı kaynağı göstersin.
 
 ---
+<a id="sec-1333"></a>
 # 1333. `/direct-flash` — Doğrudan Flaş
 
 ## Türkçe
@@ -1403,7 +1404,7 @@ Bu nedenle bu bölümün ana prensibi:
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1369. `/decision-point-sign` — Karar Noktası Tabelası
@@ -1430,7 +1431,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1370. `/you-are-here-map` — “Buradasınız” Haritası
@@ -1461,7 +1462,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1371. `/accessible-wayfinding` — Erişilebilir Yönlendirme
@@ -1492,7 +1493,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1372. `/tactile-map` — Dokunsal Harita
@@ -1523,7 +1524,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1373. `/floor-identity` — Kat / Bölge Kimliği
@@ -1546,7 +1547,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1374. `/landmark-wayfinding` — Mekânsal Landmark ile Yön Bulma
@@ -1605,7 +1606,7 @@ SEGD’nin 2026 “Logos to Landmarks” yaklaşımında yönlendirme, kimlik ve
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1376. `/placemaking-signage` — Yer Kimliği + Yönlendirme
@@ -1628,7 +1629,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1377. `/signage-family-board` — Tabela Ailesi Panosu
@@ -1661,7 +1662,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1378. `/signage-placement-review` — Tabela Yerleşim İncelemesi
@@ -1691,7 +1692,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1379. `/multisensory-wayfinding` — Çok Duyulu Yönlendirme
@@ -1750,7 +1751,7 @@ En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1381. `/wayfinding-slop-filter` — Wayfinding AI Slop Filtresi
@@ -1874,7 +1875,7 @@ Etkileşim tek dokunuşta anlaşılsın: soyma, katlama ve QR davranışı görs
 
 ## Neye dikkat edilmeli?
 
-En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri §21 mantığıyla tek tek izlenir.
+En uzak okuma mesafesinde test edin; ok-yazı-zemin kontrastı ve ok yönleri [§21](10-temeller-001-222.md#sec-21) mantığıyla tek tek izlenir.
 
 ---
 # 1386. `/peel-reveal-print` — Katman Soyma Etkileşimi
@@ -3168,7 +3169,7 @@ yapısını koruyarak **zamanda davranmasıdır**.
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1431. `/motion-poster-type` — Tipografi Hareketli Afiş
@@ -3199,7 +3200,7 @@ Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hı
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1432. `/variable-font-motion` — Variable Font Hareketi
@@ -3259,7 +3260,7 @@ Adobe After Effects 26.0 ile variable font eksenlerinin motion typography içind
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1434. `/type-on-beat` — Müziğe Senkron Tipografi
@@ -3285,7 +3286,7 @@ Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hı
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1435. `/type-scroll-reveal` — Scroll ile Kinetik Tipografi
@@ -3306,7 +3307,7 @@ Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hı
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1436. `/motion-grid` — Grid'in Hareket Etmesi
@@ -3327,7 +3328,7 @@ Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hı
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1437. `/motion-collage` — Hareketli Kolaj
@@ -3348,7 +3349,7 @@ Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hı
 
 ## Neye dikkat edilmeli?
 
-Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür (§1464).
+Loop noktası görünmez olsun; tipografi hareketi okunabilirliği bozuyorsa hız düşürülür ([§1464](#sec-1464)).
 
 ---
 # 1438. `/motion-poster-slop-filter` — Motion Poster AI Slop Filtresi
@@ -4031,6 +4032,7 @@ Sor:
 
 ---
 
+<a id="sec-1464"></a>
 # 1464. `/reduced-motion` — Azaltılmış Hareket Sürümü
 
 ## Erişilebilirlik
@@ -6367,6 +6369,7 @@ Kaçınılması gerekenler:
 
 ---
 
+<a id="sec-1549"></a>
 # 1549. Adobe 2026: `/sensory-closeup` — All the Feels Yakın Planı
 
 ## Trend
@@ -6738,6 +6741,7 @@ Kondisyon dürüst gösterilsin: yıpranma gizlenmesin, köken etiketi belgelene
 Kondisyon dürüst gösterilsin: yıpranma gizlenmesin, köken etiketi belgelenebilir olsun.
 
 ---
+<a id="sec-1563"></a>
 # 1563. `/local-flavor-slop-filter` — Local Flavor AI Slop Filtresi
 
 Kaçınılması gerekenler:
@@ -6754,6 +6758,7 @@ Kaçınılması gerekenler:
 
 ---
 
+<a id="sec-1564"></a>
 # 1564. `/one-rule-surreal` — Tek Fizik Kuralı Bozulan Sürrealizm
 
 ## Adobe 2026 Surreal Silliness ile uyumlu
@@ -6895,6 +6900,7 @@ Ortak soru:
 
 ---
 
+<a id="sec-1570"></a>
 # 1570. `/context-not-costume` — Bağlam, Kostüm Değil
 
 ## Yeni rehber kontrolü
@@ -7092,7 +7098,7 @@ Aynı şekilde 2026 müze araştırmalarında erişilebilirlik ve haptik deneyim
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1575. `/returnable-pack` — İade Edilebilir Ambalaj
@@ -7121,7 +7127,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1576. `/reuse-loop` — Ambalaj Döngüsü
@@ -7146,7 +7152,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1577. `/mono-material-pack` — Mono-material Ambalaj
@@ -7193,7 +7199,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1579. `/molded-pulp-insert` — Kalıplanmış Selüloz İç Yatak
@@ -7221,7 +7227,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1580. `/packaging-nesting` — İstifleme / İç İçe Geçme Optimizasyonu
@@ -7244,7 +7250,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1581. `/packaging-logistics-board` — Ambalaj + Lojistik Panosu
@@ -7273,7 +7279,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1582. `/traceability-pack` — İzlenebilirlik Ambalajı
@@ -7325,9 +7331,10 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
+<a id="sec-1584"></a>
 # 1584. `/sustainability-claim-lock` — Sürdürülebilirlik İddiası Kilidi
 
 ## Türkçe
@@ -7344,7 +7351,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1585. `/circular-packaging-board` — Döngüsel Ambalaj Karar Panosu
@@ -7379,7 +7386,7 @@ Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları ek
 
 ## Neye dikkat edilmeli?
 
-Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir (§1584).
+Döngü iddiası mekanizmayla gösterilsin: dolum, iade ve yıkama adımları eksikse iddia kilitlenir ([§1584](#sec-1584)).
 
 ---
 # 1586. `/circular-pack-slop-filter` — Sürdürülebilir Ambalaj AI Slop Filtresi
@@ -9004,7 +9011,7 @@ bu aileye aittir.
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1647. `/ingredient-breakdown-topdown` — Tepeden İçerik Ayrımı
@@ -9027,7 +9034,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1648. `/ingredient-lineup` — İçerik Sıralaması
@@ -9050,7 +9057,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1649. `/ingredient-to-result` — Bileşenden Sonuca
@@ -9079,7 +9086,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1650. `Ingredient Breakdown` ile `Exploded View` Aynı Şey Değildir
@@ -9144,9 +9151,10 @@ Bu dört aileyi birbirine karıştırmak prompt sonucunu ciddi biçimde değişt
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
+<a id="sec-1652"></a>
 # 1652. `/material-board` — Malzeme Panosu
 
 ## 2026 trend bağlantısı
@@ -9177,7 +9185,7 @@ Milan Design Week 2026 moodboard çalışmalarında materyal, renk ve yüzey tek
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1653. `/material-swatch` — Malzeme Swatch Kartı
@@ -9203,7 +9211,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1654. `/material-family` — Aynı Malzemenin İşlenmiş Hâlleri
@@ -9232,7 +9240,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1655. `/material-aging-board` — Malzemenin Zamanla Yaşlanması
@@ -9255,7 +9263,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1656. `/material-junction` — Malzeme Birleşim Detayı
@@ -9278,7 +9286,7 @@ Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 m
 
 ## Neye dikkat edilmeli?
 
-Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi §4 mantığıyla okunur kalsın.
+Parça adları ve sayıları gerçek ürünle eşleşsin; montaj ilişkisi [§4](10-temeller-001-222.md#sec-4) mantığıyla okunur kalsın.
 
 ---
 # 1657. `/material-board-slop-filter` — Material Board AI Slop Filtresi
@@ -9362,6 +9370,7 @@ Her nesneye ait etiket ve numara doğru nesneye bağlı olsun; vitrin ya da çek
 Ölçek çubuğu ve kaynak bilgisi her levhada olsun; varyasyon dizisinde aynı türün farklı bireyleri karışmasın.
 
 ---
+<a id="sec-1660"></a>
 # 1660. `/specimen-scale` — Ölçekli Numune
 
 ## Türkçe
@@ -9989,7 +9998,7 @@ Soyut fikir, haber, makale, toplumsal kavram, psikoloji, ekonomi, teknoloji, eğ
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1685. `/editorial-metaphor` — Tek Metafor

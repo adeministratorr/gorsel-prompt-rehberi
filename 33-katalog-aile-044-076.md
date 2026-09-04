@@ -635,6 +635,7 @@ Daha önemli unsurlar:
 
 ---
 
+<a id="sec-2050"></a>
 # 2050. `/yearbook-portrait` — Genel Yearbook Portresi
 
 ## Türkçe prompt
@@ -1226,9 +1227,10 @@ Kenarlarda hale ve yarım kalmış arka plan parçası kalmasın; saç ve parmak
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
+<a id="sec-2071"></a>
 # 2071. `/background-swap` — Arka Plan Değiştir
 
 ## Türkçe
@@ -1249,11 +1251,11 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 >
 > Preserve identity, pose, and outfit.
 
-*Benzer: §965 — portre için kontrollü arka plan değişimi.*
+*Benzer: [§965](30-katalog-aile-009-016.md#sec-965) — portre için kontrollü arka plan değişimi.*
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2072. `/object-remove` — Nesne Sil
@@ -1283,7 +1285,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2073. `/object-add` — Nesne Ekle
@@ -1311,7 +1313,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2074. `/replace-object` — Tek Nesneyi Değiştir
@@ -1339,7 +1341,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2075. `/reframe` — Kadrajı Yeniden Düzenle
@@ -1366,7 +1368,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2076. `/outpaint` — Görseli Dışa Doğru Genişlet
@@ -1398,7 +1400,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2077. `/uncrop` — Crop Dışını Geri Kur
@@ -1421,7 +1423,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2078. `/shadow-match` — Gölgeyi Sahneye Uydur
@@ -1447,7 +1449,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2079. `/color-match` — Renk / Ton Eşleme
@@ -1470,7 +1472,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2080. `/glare-reduction` — Parlama Azalt
@@ -1493,7 +1495,7 @@ Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahne
 
 ## Neye dikkat edilmeli?
 
-Düzenleme tek değişiklik kuralıyla (§2018) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
+Düzenleme tek değişiklik kuralıyla ([§2018](32-katalog-aile-024-043.md#sec-2018)) yapılsın; gölge ve renk sahneye uydurulmadan işlem bitmiş sayılmaz.
 
 ---
 # 2081. `/photo-edit-slop-filter` — Photo Edit AI Slop Filtresi
@@ -1564,7 +1566,7 @@ Daha çok:
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2083. `/cutout-portrait-collage` — Kesilmiş Portre Kolajı
@@ -1591,7 +1593,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2084. `/portrait-contact-collage` — Contact Sheet + Hero Portre
@@ -1620,7 +1622,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2085. `/type-portrait-collage` — Tipografi + Portre Kolajı
@@ -1647,7 +1649,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2086. `/collage-identity-lock` — Kolaj Kimlik Kilidi
@@ -1672,7 +1674,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2087. `/modern-collage-slop-filter` — Modern Collage AI Slop Filtresi
@@ -1705,6 +1707,7 @@ Buradaki fark:
 
 ---
 
+<a id="sec-2088"></a>
 # 2088. `/desktop-paint-doodle` — Basit Bilgisayar Çizim Dili
 
 ## Türkçe prompt
@@ -1734,7 +1737,7 @@ Buradaki fark:
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2089. `/mouse-drawn-outline` — Mouse ile Çizilmiş Kontur
@@ -1755,7 +1758,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2090. `/desktop-paint-caption` — Basit Dijital Yazı
@@ -1776,7 +1779,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2091. `/pixel-brush-overlay` — Pixel Brush Overlay
@@ -1802,7 +1805,7 @@ Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu reng
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası §163 slop’una kayar.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi; fazlası [§163](10-temeller-001-222.md#sec-163) slop’una kayar.
 
 ---
 # 2092. `/desktop-doodle-slop-filter` — Desktop Doodle AI Slop Filtresi
@@ -2726,6 +2729,7 @@ Rehberde daha önce isometric ve miniature aileleri vardı. Buradaki fark:
 
 ---
 
+<a id="sec-2119"></a>
 # 2119. `/photo-to-isometric-room` — Fotoğraftan Isometric Oda
 
 ## Türkçe prompt
@@ -2871,6 +2875,7 @@ Bu formatın güçlü tarafı:
 
 ---
 
+<a id="sec-2124"></a>
 # 2124. `/photo-to-board-game` — Fotoğraftan Masa Oyunu
 
 ## Türkçe prompt
@@ -3040,7 +3045,7 @@ demek değildir.
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2130. `/person-pet-holiday` — Kişi + Evcil Hayvan Sezonluk Portre
@@ -3065,7 +3070,7 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2131. `/seasonal-cue-lock` — Sezon İpucu Sınırı
@@ -3152,7 +3157,7 @@ ile aynı şey değildir.
 
 ## Neye dikkat edilmeli?
 
-Dönem arayüzü ve yerleşimi bugünün alışkanlıklarını sızdırmasın (modern ikon, güncel logo); yazı denetimi §995'teki kapak notundaki gibi yapılır.
+Dönem arayüzü ve yerleşimi bugünün alışkanlıklarını sızdırmasın (modern ikon, güncel logo); yazı denetimi [§995](30-katalog-aile-009-016.md#sec-995)'teki kapak notundaki gibi yapılır.
 
 ---
 # 2134. `/early-facebook-photo` — Erken Facebook Fotoğrafı
@@ -3181,7 +3186,7 @@ Dönem arayüzü ve yerleşimi bugünün alışkanlıklarını sızdırmasın (m
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2135. `/early-digital-flash` — Erken Dijital Kamera Flaşı
@@ -3205,7 +3210,7 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2136. `/jpeg-upload-loss` — Eski Web Yükleme Sıkıştırması
@@ -3228,7 +3233,7 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2137. `/early-social-slop-filter` — Erken Sosyal Medya Filtresi
@@ -3296,7 +3301,7 @@ Bu, poster tasarlamakla aynı şey değildir.
 
 ## Neye dikkat edilmeli?
 
-Dönem arayüzü ve yerleşimi bugünün alışkanlıklarını sızdırmasın (modern ikon, güncel logo); yazı denetimi §995'teki kapak notundaki gibi yapılır.
+Dönem arayüzü ve yerleşimi bugünün alışkanlıklarını sızdırmasın (modern ikon, güncel logo); yazı denetimi [§995](30-katalog-aile-009-016.md#sec-995)'teki kapak notundaki gibi yapılır.
 
 ---
 # 2139. `/wall-poster-mockup` — Duvarda Poster
@@ -3319,7 +3324,7 @@ Dönem arayüzü ve yerleşimi bugünün alışkanlıklarını sızdırmasın (m
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2140. `/taped-poster-mockup` — Bantla Asılmış Poster
@@ -3340,7 +3345,7 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2141. `/street-poster-mockup` — Sokakta Poster
@@ -3369,7 +3374,7 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2142. `/poster-in-hand` — Elde Tutulan Poster
@@ -3396,9 +3401,10 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
+<a id="sec-2143"></a>
 # 2143. `/poster-mockup-lock` — Artwork Kilidi
 
 ## Türkçe
@@ -3429,7 +3435,7 @@ Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmes
 
 ## Neye dikkat edilmeli?
 
-Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın (§2143).
+Mevsim ve mekân gerçekçi kalsın; poster mockup’ında artwork pikselleşmesin, kilitli kalsın ([§2143](#sec-2143)).
 
 ---
 # 2144. `/poster-mockup-slop-filter` — Poster Mockup Filtresi
@@ -3524,7 +3530,7 @@ Işık mantığı tek sahneye uysun: gölge yönü ve renk ısısı çakışıyo
 
 ## Neye dikkat edilmeli?
 
-Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin (§2156).
+Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin ([§2156](#sec-2156)).
 
 ---
 # 2147. `/profile-echo` — Tekrarlanan Profil Yankısı
@@ -3549,7 +3555,7 @@ Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye u
 
 ## Neye dikkat edilmeli?
 
-Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin (§2156).
+Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin ([§2156](#sec-2156)).
 
 ---
 # 2148. `/exposure-identity-lock` — Çoklu Katmanda Kimlik Kilidi
@@ -3570,7 +3576,7 @@ Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye u
 
 ## Neye dikkat edilmeli?
 
-Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin (§2156).
+Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin ([§2156](#sec-2156)).
 
 ---
 # 2149. `/multiple-exposure-slop-filter` — Multiple Exposure Filtresi
@@ -3837,6 +3843,7 @@ Doğru isim:
 
 ---
 
+<a id="sec-2156"></a>
 # 2156. `/reverse-image-prompt` — Görselden Prompt Çıkar
 
 ## Türkçe prompt
@@ -3895,7 +3902,7 @@ Doğru isim:
 
 ## Neye dikkat edilmeli?
 
-Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin (§2156).
+Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin ([§2156](#sec-2156)).
 
 ---
 # 2158. `/reverse-camera` — Fotoğraf Dilini Tersine Çözümle
@@ -3922,7 +3929,7 @@ Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye u
 
 ## Neye dikkat edilmeli?
 
-Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin (§2156).
+Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin ([§2156](#sec-2156)).
 
 ---
 # 2159. `/reverse-layout` — Layout’ı Prompta Çevir
@@ -3949,7 +3956,7 @@ Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye u
 
 ## Neye dikkat edilmeli?
 
-Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin (§2156).
+Katman ve çözümleme iddiaları test edilsin: ışık mantığı tek sahneye uysun, tersine çözümlemeden çıkan prompt farklı görselde denensin ([§2156](#sec-2156)).
 
 ---
 # 2160. `/prompt-reconstruction-confidence` — Ne Kadar Eminiz?
@@ -4892,6 +4899,7 @@ Başlık boşluğu ve portre dili yayına uygun olsun; çevreyi dolduran tekrarl
 Başlık boşluğu ve portre dili yayına uygun olsun; çevreyi dolduran tekrarlanan öğeler sayılarak denetlensin.
 
 ---
+<a id="sec-2193"></a>
 # 2193. `/editorial-headroom` — Masthead / Başlık İçin Boşluk
 
 ## Türkçe
@@ -6048,7 +6056,7 @@ doğrudan örneklenen formatlardan biridir.
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 2238. `/floating-product-hero` — Havada Ürün Hero
@@ -6073,7 +6081,7 @@ doğrudan örneklenen formatlardan biridir.
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 2239. `/product-shadow-play` — Gölge Odaklı Ürün Fotoğrafı
@@ -6098,7 +6106,7 @@ doğrudan örneklenen formatlardan biridir.
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 2240. `/product-color-block` — Renk Bloklu Ürün Hero
@@ -6123,7 +6131,7 @@ doğrudan örneklenen formatlardan biridir.
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 2241. `/product-negative-space` — Reklam Metni İçin Boşluk
@@ -6144,7 +6152,7 @@ doğrudan örneklenen formatlardan biridir.
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 2242. `/product-pedestal-slop-filter` — Product Hero Filtresi
@@ -6432,6 +6440,7 @@ Görseldeki yazıyı harf harf okuyun; model başlık ve isimlerde harf uydurur.
 Görseldeki yazıyı harf harf okuyun; model başlık ve isimlerde harf uydurur. Uzun metin gerekiyorsa yazıyı görsele değil açıklamaya koyun, kapakta yalnız kısa ve doğrulanmış başlık kalsın.
 
 ---
+<a id="sec-2253"></a>
 # 2253. `/character-card` — Karakter Kartı
 
 ## Türkçe
@@ -6454,7 +6463,7 @@ Görseldeki yazıyı harf harf okuyun; model başlık ve isimlerde harf uydurur.
 >
 > Do not invent game statistics or imitate a real franchise trading-card system.
 
-*Benzer: §991 — AI slop’tan arındırılmış sade alternatif.*
+*Benzer: [§991](30-katalog-aile-009-016.md#sec-991) — AI slop’tan arındırılmış sade alternatif.*
 
 ## Neye dikkat edilmeli?
 

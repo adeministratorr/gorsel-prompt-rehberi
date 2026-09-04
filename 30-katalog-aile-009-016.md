@@ -5,7 +5,7 @@
 
 Bunlar yine rehber içi takma adlardır; resmî ChatGPT slash komutları değildir.
 
-Kısayollar üç biçimde karşınıza çıkar: **tam preset** (kendi numaralı bölümü ve TR+EN açılımı olan, örn. `/lego` §892), **aile öneki** (sonek varyantlarla veya ölçüyle birlikte kullanılan, örn. `/editorial-split-paper-cut` §900–907 ya da `/editorial-split 60/40`), ve **indeks kelimesi** (tur indeks tablolarındaki varyant adları; bağımsız bölümü yoksa ailenin genel formülü ve kısıt cümleleriyle doğrudan kullanılır).
+Kısayollar üç biçimde karşınıza çıkar: **tam preset** (kendi numaralı bölümü ve TR+EN açılımı olan, örn. `/lego` [§892](#sec-892)), **aile öneki** (sonek varyantlarla veya ölçüyle birlikte kullanılan, örn. `/editorial-split-paper-cut` [§900](#sec-900)–907 ya da `/editorial-split 60/40`), ve **indeks kelimesi** (tur indeks tablolarındaki varyant adları; bağımsız bölümü yoksa ailenin genel formülü ve kısıt cümleleriyle doğrudan kullanılır).
 
 | Kısayol | Prompt ailesi |
 |---|---|
@@ -486,6 +486,7 @@ Viral master promptun ilk görülen remixlerinden biri.
 
 ---
 
+<a id="sec-900"></a>
 # 900. `/editorial-split-paper-cut` — Photo + Paper-cut
 
 ## Türkçe prompt
@@ -546,6 +547,7 @@ Alt yarıdaki yorum, üstteki kişinin kimliğini ve giysisini değiştirmesin; 
 Alt yarıdaki yorum, üstteki kişinin kimliğini ve giysisini değiştirmesin; iki yarıyı ayıran çizginin tam ortada ve düz olduğunu kontrol edin. Alt bölümdeki medium dokusu (kâğıt kalınlığı, toner, registration kayması) abartılırsa portre karikatüre kayar.
 
 ---
+<a id="sec-904"></a>
 # 904. `/editorial-split-food` — Yemek Fotoğrafı İçin Koruma Sürümü
 
 Yemek/ürün fotoğraflarında kaynak koruma cümlesi özellikle önemlidir.
@@ -1699,6 +1701,7 @@ Restorasyondan farklı bir amaçtır.
 Orijinal kimlik ve dönem korunsun; model eksik kalan yüz, el ve yazı gibi yerleri uydurur. Uydurulan her ayrıntı kaynak fotoğrafla karşılaştırılır; emin olunamayan yer boş bırakılır.
 
 ---
+<a id="sec-961"></a>
 # 961. `/identity-lock` — Evrensel Kimlik Koruma Bloğu
 
 ## Rehber içi preset
@@ -1764,6 +1767,7 @@ Kilit cümlesi tek ve kısa tutulur, promptun sonuna aynen eklenir; iki kilit ç
 Kilit cümlesi tek ve kısa tutulur, promptun sonuna aynen eklenir; iki kilit çakışırsa (örn. poz + kıyafet) öncelik promptta yazılır.
 
 ---
+<a id="sec-965"></a>
 # 965. `/background-swap` — Kontrollü Arka Plan Değişimi
 
 ## Türkçe
@@ -1774,7 +1778,7 @@ Kilit cümlesi tek ve kısa tutulur, promptun sonuna aynen eklenir; iki kilit ç
 
 > Preserve the person and foreground exactly; replace only the background with [NEW SETTING]. Match perspective, horizon, light direction, shadows, and color temperature to the existing subject. Do not regenerate the person.
 
-*Benzer: §2071 — aynı işlemin kaynak-özne (capture-source) ağzıyla sürümü.*
+*Benzer: [§2071](33-katalog-aile-044-076.md#sec-2071) — aynı işlemin kaynak-özne (capture-source) ağzıyla sürümü.*
 
 ## Neye dikkat edilmeli?
 
@@ -2518,13 +2522,14 @@ Bu formül çok kolay **AI slop** üretir.
 
 ---
 
+<a id="sec-991"></a>
 # 991. `/character-card` — Minimal Character Profile Card
 
 ## Alternatif
 
 AI slop'u azaltmak için character intro'nun daha sakin sürümü.
 
-*Benzer: §2253 — koleksiyon (collectible) kart sürümü.*
+*Benzer: [§2253](33-katalog-aile-044-076.md#sec-2253) — koleksiyon (collectible) kart sürümü.*
 
 ## Türkçe prompt
 
@@ -2669,6 +2674,7 @@ Eylül 2026'da da özellikle selfie → magazine-cover promptları aktif biçimd
 
 ---
 
+<a id="sec-995"></a>
 # 995. `/bw-magazine` — Black-and-white Editorial Cover
 
 ## Türkçe prompt
@@ -2943,6 +2949,7 @@ belirler.
 
 ---
 
+<a id="sec-1006"></a>
 # 1006. `/reference-role-map` — Çoklu Referansların Görevini Tanımlama
 
 Birden fazla görsel yüklendiğinde:
@@ -2968,7 +2975,7 @@ Bu özellikle:
 
 promptlarında tutarlılığı artırır.
 
-*Benzer: §2016 — referans karışmasını azaltma gerekçesiyle kısa sürüm.*
+*Benzer: [§2016](32-katalog-aile-024-043.md#sec-2016) — referans karışmasını azaltma gerekçesiyle kısa sürüm.*
 
 ---
 
@@ -3236,7 +3243,7 @@ Tam packaging board gerekmiyorsa, yalnız marka dili çıkarmak için.
 
 ## Neye dikkat edilmeli?
 
-Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı §995'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
+Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı [§995](#sec-995)'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
 
 ---
 # 1014. `/carrier-select` — Konuya Göre Ambalaj Taşıyıcısı Seçme
@@ -3267,7 +3274,7 @@ Bu, AI packaging slop'unu ciddi biçimde azaltır.
 
 ## Neye dikkat edilmeli?
 
-Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı §995'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
+Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı [§995](#sec-995)'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
 
 ---
 # 1016. `/packaging-material-study` — Packaging Material Study
@@ -3294,7 +3301,7 @@ Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıy
 
 ## Neye dikkat edilmeli?
 
-Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı §995'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
+Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı [§995](#sec-995)'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
 
 ---
 # 1017. `/product-hero-lock` — Ürün Geometrisi Kilidi
@@ -3351,7 +3358,7 @@ Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıy
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 1020. `/gray-product` — Nötr Gri Hero Shot
@@ -3366,7 +3373,7 @@ Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıy
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 1021. `/product-in-hand` — Ürünün Elde Kullanımı
@@ -3404,7 +3411,7 @@ Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıy
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 1023. `/product-detail-set` — Ürün Detay Serisi
@@ -3487,7 +3494,7 @@ Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıy
 
 ## Neye dikkat edilmeli?
 
-Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri §163 filtresinden geçirin.
+Ürünün gerçek oranı ve malzemesi korunsun; “premium” parlaklık adı altında eklenen sahte yansıma ve gölgeleri [§163](10-temeller-001-222.md#sec-163) filtresinden geçirin.
 
 ---
 # 1026. `/beverage-product` — İçecek Ürün Fotoğrafı
@@ -4096,7 +4103,7 @@ Malzeme fiziksel olarak kurulabilir olsun; yüzeye kaplanmış doku yerine malze
 
 ## Neye dikkat edilmeli?
 
-Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı §995'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
+Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı [§995](#sec-995)'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
 
 ---
 # 1053. `/product-board-slop-filter` — Ürün/Paketleme AI Slop Filtresi
@@ -4118,6 +4125,7 @@ Kaçınılması gerekenler:
 
 ---
 
+<a id="sec-1054"></a>
 # 1054. `/album-cover-slop-filter` — Albüm Kapağı AI Slop Filtresi
 
 Kaçınılması gerekenler:
@@ -4136,7 +4144,7 @@ Daha iyi soru:
 
 > **Bu müziğin tek görsel fikri nedir?**
 
-*Benzer: §2417 — üretim ve format hatalarına odaklı ikinci filtre.*
+*Benzer: [§2417](34-katalog-aile-077-133.md#sec-2417) — üretim ve format hatalarına odaklı ikinci filtre.*
 
 ---
 
@@ -4420,7 +4428,7 @@ Pinterest'in 2026 yaz raporunda sporun yalnız maç izlemekten çıkarak forma, 
 
 ## Neye dikkat edilmeli?
 
-Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi §995'teki kapak notundaki gibi harf harf yapılır.
+Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi harf harf yapılır.
 
 ---
 # 1064. `/player-stat-card` — Sporcu İstatistik Kartı
@@ -4447,7 +4455,7 @@ Gerçek veriyi görsel olarak özetlemek için.
 
 ## Neye dikkat edilmeli?
 
-Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi §995'teki kapak notundaki gibi harf harf yapılır.
+Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi harf harf yapılır.
 
 ---
 # 1065. `/sports-number-poster` — Numara Odaklı Spor Posteri
@@ -4499,7 +4507,7 @@ Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynakt
 
 ## Neye dikkat edilmeli?
 
-Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi §995'teki kapak notundaki gibi harf harf yapılır.
+Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi harf harf yapılır.
 
 ---
 # 1067. `/fan-poster` — DIY Taraftar Posteri
@@ -4546,7 +4554,7 @@ Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynakt
 
 ## Neye dikkat edilmeli?
 
-Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi §995'teki kapak notundaki gibi harf harf yapılır.
+Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi harf harf yapılır.
 
 ---
 # 1069. `/motorsport-poster` — Motorsport Event Poster
@@ -4569,7 +4577,7 @@ Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynakt
 
 ## Neye dikkat edilmeli?
 
-Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi §995'teki kapak notundaki gibi harf harf yapılır.
+Skor, isim ve istatistik model tarafından uydurulur; karttaki her sayı kaynaktan doğrulanır. Yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi harf harf yapılır.
 
 ---
 # 1070. `/rolling-shot` — Automotive Rolling Shot
@@ -5250,7 +5258,7 @@ olarak görülmelidir.
 
 ## Neye dikkat edilmeli?
 
-Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı §995'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
+Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı [§995](#sec-995)'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
 
 ---
 # 1099. `/bakery-box` — Fırın/Pastane Kutusu
@@ -5328,7 +5336,7 @@ Ambalajdaki yemek fotoğrafı ya da illüstrasyonu gerçek içeriği vaat etsin;
 
 ## Neye dikkat edilmeli?
 
-Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı §995'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
+Logo, renk ve ambalaj dili bütün varyantlarda aynı kalsın; etiketteki yazıyı [§995](#sec-995)'teki kapak notundaki gibi harf harf doğrulayın. Model “ilgili görünsün” diye aileye ait olmayan öğeler ekler.
 
 ---
 # 1102. `/shelf-family` — Raf Üzerinde Ambalaj Ailesi
@@ -5524,7 +5532,7 @@ Ambalajdaki yemek fotoğrafı ya da illüstrasyonu gerçek içeriği vaat etsin;
 
 ## Neye dikkat edilmeli?
 
-Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi §995'teki kapak notundaki gibi yapılır.
+Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi yapılır.
 
 ---
 # 1110. `/pixel-icon-sheet` — Pixel Icon Sheet
@@ -5591,7 +5599,7 @@ Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi 
 
 ## Neye dikkat edilmeli?
 
-Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi §995'teki kapak notundaki gibi yapılır.
+Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi yapılır.
 
 ---
 # 1113. `/browser-1999` — Late-1990s Browser Page
@@ -5620,7 +5628,7 @@ Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi 
 
 ## Neye dikkat edilmeli?
 
-Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi §995'teki kapak notundaki gibi yapılır.
+Dönem arayüzü bugünün alışkanlıklarını sızdırmasın; yazı denetimi [§995](#sec-995)'teki kapak notundaki gibi yapılır.
 
 ---
 # 1114. `/retro-ui-slop-filter` — Retro UI AI Slop Filtresi
@@ -7559,7 +7567,7 @@ Bu yüzden bu rehberde bilimsel görsel için temel kural:
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1179. `/mechanism-figure` — Mekanizma Şeması
@@ -7586,7 +7594,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1180. `/graphical-abstract` — Graphical Abstract
@@ -7657,7 +7665,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1182. `/methods-figure` — Yöntem Akış Figürü
@@ -7686,7 +7694,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1183. `/experimental-setup` — Deney Düzeneği
@@ -7716,7 +7724,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1184. `/control-vs-treatment` — Kontrol / Deney Karşılaştırması
@@ -7743,7 +7751,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1185. `/uncertainty-figure` — Belirsizlik Görselleştirme
@@ -7774,7 +7782,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1186. `/raw-data-overlay` — Ham Veri + Özet
@@ -7793,7 +7801,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1187. `/scientific-cover` — Bilimsel Dergi Kapağı
@@ -7854,7 +7862,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1189. `/comparative-anatomy` — Karşılaştırmalı Anatomi
@@ -7881,7 +7889,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1190. `/fossil-reconstruction-pair` — Fosil + Rekonstrüksiyon
@@ -7906,7 +7914,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1191. `/evidence-layer` — Kanıt Seviyesi Katmanı
@@ -7937,7 +7945,7 @@ Bilimsel rekonstrüksiyonlarda görselin üzerine kanıt seviyesini eklemek içi
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1192. `/scientific-figure-slop-filter` — Bilimsel Görsel AI Slop Filtresi
@@ -8014,7 +8022,7 @@ ArchDaily'nin Ağustos 2026 değerlendirmesi, tasarım sunumlarının yalnız so
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1195. `/material-option-board` — Malzeme Alternatifleri
@@ -8041,7 +8049,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1196. `/daylight-option-board` — Günışığı Karşılaştırması
@@ -8068,7 +8076,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1197. `/season-option-board` — Mevsim Karşılaştırması
@@ -8091,7 +8099,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1198. `/architecture-sequence` — Mekânsal Deneyim Dizisi
@@ -8118,7 +8126,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1199. `/architecture-storyboard` — Mimari Kullanım Storyboard'u
@@ -8141,7 +8149,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1200. `/architecture-exploded-program` — Programatik Exploded Axon
@@ -8168,7 +8176,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1201. `/architecture-process-board` — Eskizden Modele Mimari Süreç
@@ -8199,7 +8207,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1202. `/architecture-pinup` — Pin-up Wall
@@ -8226,7 +8234,7 @@ Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnı
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1203. `/architecture-crit-wall` — Tasarım Kritiği Duvarı
@@ -8253,7 +8261,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun (§23 mantığı).
+Alternatif panolarda bakış açısı ve ışık sabit kalsın; değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 # 1204. `/architecture-slop-filter` — Mimari AI Slop Filtresi
@@ -8553,7 +8561,7 @@ Kaçınılması gerekenler:
 
 ## Neye dikkat edilmeli?
 
-Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
+Bilgi taşıyan her öğe [§18](10-temeller-001-222.md#sec-18) listesiyle kaynaktan doğrulanır; estetik kararlar (duvar dizimi, çocuk kitabı dili) içeriği sadeleştirebilir ama değiştiremez.
 
 ---
 # 1216. `/character-turnaround-kids` — Çocuk Kitabı Karakter Tutarlılığı
@@ -8576,7 +8584,7 @@ Bilgi taşıyan her öğe §18 listesiyle kaynaktan doğrulanır; estetik kararl
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1217. `/same-character-sequence` — Aynı Karakter Hikâye Dizisi
@@ -8603,7 +8611,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1218. `/wordless-sequence` — Yazısız Hikâye
@@ -8630,7 +8638,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1219. `/educational-story-scene` — Öğretici Hikâye Sahnesi
@@ -8657,7 +8665,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1220. `/concept-cartoon` — Kavram Karikatürü
@@ -8682,7 +8690,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1221. `/misconception-pair` — Yanılgı / Doğru Model Karşılaştırması
@@ -8711,7 +8719,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1222. `/observe-predict-explain` — Gözle–Tahmin Et–Açıkla
@@ -8738,7 +8746,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1223. `/visual-routine` — Görsel Düşünme Rutini
@@ -8761,7 +8769,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1224. `/picturebook-slop-filter` — Çocuk/Eğitim İllüstrasyonu AI Slop Filtresi
@@ -8835,7 +8843,7 @@ Bilimsel/eğitsel diyagramı dekoratif postere dönüştürürken bilgi kaybın�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1227. `/physical-data-art` — Fiziksel Veri Sanatı
@@ -8860,7 +8868,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1228. `/small-multiple-data-art` — Small Multiple Veri Sanatı
@@ -8883,7 +8891,7 @@ Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kayna�
 
 ## Neye dikkat edilmeli?
 
-Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia (§18) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
+Karakter ve kavram bütün karelerde sabit kalsın; eğitsel iddia ([§18](10-temeller-001-222.md#sec-18)) kaynağıyla doğrulanır, sevimlilik doğruluğun önüne geçmesin.
 
 ---
 # 1229. `/data-art-slop-filter` — Veri Sanatı AI Slop Filtresi
@@ -9960,7 +9968,7 @@ Bu iki prompt ailesi birbirine karıştırılmamalıdır.
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1269. `/science-cover-photo` — Bilimsel Fotoğraf Kapak
@@ -9987,7 +9995,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1270. `/science-cover-process` — Eskizden Bilimsel Kapağa
@@ -10085,7 +10093,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1273. `/multi-ref-4-product` — Ürün + Model + Mekân + Işık
@@ -10130,7 +10138,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1274. `/multi-ref-5` — Kimlik + Poz + Kıyafet + Nesne + Mekân
@@ -10165,7 +10173,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1275. `/reference-priority` — Referans Öncelik Sırası
@@ -10198,7 +10206,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1276. `/ignore-subject-from-style-ref` — Stil Referansındaki Kişiyi Yok Say
@@ -10225,7 +10233,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1277. `/ignore-style-from-identity-ref` — Kimlik Referansındaki Stili Yok Say
@@ -10244,7 +10252,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1278. `/reference-conflict-check` — Referans Çatışması Kontrolü
@@ -10273,7 +10281,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1279. `/reference-audit-board` — Çoklu Referans Audit Board
@@ -10308,7 +10316,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1280. `/multi-ref-group` — Ayrı Fotoğraflardan Grup Fotoğrafı
@@ -10379,7 +10387,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1282. `/multi-ref-pet-family` — Çoklu Evcil Hayvan Kompozisyonu
@@ -10402,7 +10410,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1283. `/multi-ref-product-campaign` — Ürünü Çoklu Referansla Kampanyaya Taşıma
@@ -10441,7 +10449,7 @@ Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yaz�
 
 ## Neye dikkat edilmeli?
 
-Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır (§2623).
+Hangi görselin kimlik, hangisinin stil referansı olduğu promptta adıyla yazılsın; karışan kimlik en sık hatadır ([§2623](40-model-arac-duzenleme-2622-2673.md#sec-2623)).
 
 ---
 # 1284. `/reference-role-table` — Çoklu Referans İçin Hızlı Tablo
@@ -10530,6 +10538,7 @@ Bu yapı, “üç fotoğraf yükledim, bunları birleştir” demekten çok daha
 Öğrenci sürümüyle öğretmen anahtarı birebir eşleşsin; doldurulabilir alanlar yazdırılan boyutta gerçekten yazılabilir olsun.
 
 ---
+<a id="sec-1288"></a>
 # 1288. `/worksheet-student` — Öğrenci Worksheet Sürümü
 
 ## Türkçe

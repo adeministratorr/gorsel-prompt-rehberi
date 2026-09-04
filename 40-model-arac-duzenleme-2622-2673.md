@@ -19,10 +19,11 @@ Kısayolu kullanmak serbesttir; sonucu **kontrol etmek** zorunludur. Bu ailenin 
 
 ## Neye dikkat edilmeli?
 
-Bir etiketin "çalışması" ile "doğru çalışması" aynı şey değildir. Bu aileyi okuduktan sonra §45'teki kontrol listesini hangi modelde üretirseniz üretin, aynı şekilde uygulayın.
+Bir etiketin "çalışması" ile "doğru çalışması" aynı şey değildir. Bu aileyi okuduktan sonra [§45](10-temeller-001-222.md#sec-45)'teki kontrol listesini hangi modelde üretirseniz üretin, aynı şekilde uygulayın.
 
 ---
 
+<a id="sec-2623"></a>
 # 2623. Gemini'de Nano Banana ile fotoğraf + etiket akışı
 
 ## Kalıcı
@@ -33,7 +34,7 @@ Gemini'nin görsel üretim katmanı Nano Banana ailesidir (Nano Banana 2 ve Nano
 
 1. Gemini'de yeni sohbet açın, dönüştürmek istediğiniz fotoğrafı sohbete ekleyin.
 2. Etiketi mesaj olarak yazın. Tek başına (`/lego`) ya da kontrollü açılımıyla (`/lego — kimlik ve kıyafet renkleri korunsun`).
-3. Sonucu §45 kontrol listesiyle değerlendirin.
+3. Sonucu [§45](10-temeller-001-222.md#sec-45) kontrol listesiyle değerlendirin.
 4. İnce ayar için tek değişiklik içeren takip mesajı yazın (2661).
 
 ## Neye dikkat edilmeli?
@@ -62,10 +63,11 @@ Google'ın kendi prompting rehberi (Google Cloud, Mart 2026), referans görsel o
 
 ## Neye dikkat edilmeli?
 
-Bu formül §38'deki şablonla aynı işi yapar; fark, Google'ın bunu Nano Banana ailesi için resmîleştirmiş olmasıdır. Slash-style etiketin yanına açılım yazarken bu beş slota da değinmek, etiketin bıraktığı boşluğu doldurur.
+Bu formül [§38](10-temeller-001-222.md#sec-38)'deki şablonla aynı işi yapar; fark, Google'ın bunu Nano Banana ailesi için resmîleştirmiş olmasıdır. Slash-style etiketin yanına açılım yazarken bu beş slota da değinmek, etiketin bıraktığı boşluğu doldurur.
 
 ---
 
+<a id="sec-2625"></a>
 # 2625. Referans görsel formülü — [Referanslar] + [İlişki talimatı] + [Yeni senaryo]
 
 ## Kalıcı
@@ -114,7 +116,7 @@ Nano Banana ailesi metin yazmada güçlüdür. Google'ın önerileri dört madde
 
 ## Neye dikkat edilmeli?
 
-Metinli görselde her harfi tek tek kontrol edin (§18). "Neredeyse doğru" yazı, eğitim materyalinde tamamen yanlış yazı kadar zararlıdır.
+Metinli görselde her harfi tek tek kontrol edin ([§18](10-temeller-001-222.md#sec-18)). "Neredeyse doğru" yazı, eğitim materyalinde tamamen yanlış yazı kadar zararlıdır.
 
 ---
 
@@ -128,10 +130,10 @@ ChatGPT'nin görsel modeli GPT Image ailesidir. Akış Gemini ile aynı mantıkt
 
 1. Yeni sohbet açın, dönüştürmek istediğiniz fotoğrafı sohbete ekleyin.
 2. Etiketi mesaj olarak yazın. Tek başına (`/lego`) ya da kontrollü açılımıyla.
-3. Sonucu §45 kontrol listesiyle değerlendirin.
+3. Sonucu [§45](10-temeller-001-222.md#sec-45) kontrol listesiyle değerlendirin.
 4. İnce ayarı konuşarak sürdürün; ChatGPT aynı görsel üzerinde konuşmalı düzenlemeye yatkındır.
 
-Slash (`/`) bazı ChatGPT arayüzlerinde uygulama komutlarını çağırmak için kullanılır; fakat `/lego` gibi stil etiketleri bu komut sisteminin parçası değildir (§891). Etiket, prompt metni olarak modele gider.
+Slash (`/`) bazı ChatGPT arayüzlerinde uygulama komutlarını çağırmak için kullanılır; fakat `/lego` gibi stil etiketleri bu komut sisteminin parçası değildir ([§891](30-katalog-aile-009-016.md#sec-891)). Etiket, prompt metni olarak modele gider.
 
 ## Neye dikkat edilmeli?
 
@@ -145,7 +147,7 @@ ChatGPT görsellerde uzun ve doğal dil talimatlarına dayanır. Etiket tek baş
 
 **Kalıcı başvuru bilgisi; model sürümleri değiştikçe güncellenir.**
 
-Açılım promptu §892'dedir. Aynı kaynak fotoğraf, aynı etiket, iki model:
+Açılım promptu [§892](30-katalog-aile-009-016.md#sec-892)'dedir. Aynı kaynak fotoğraf, aynı etiket, iki model:
 
 | Bakılacak nokta | ChatGPT (GPT Image) | Gemini (Nano Banana Pro) |
 |---|---|---|
@@ -165,7 +167,7 @@ Tablo bir "hangisi daha iyi" sıralaması değildir. Soru şudur: bu iş için h
 
 # 2629. Kısayol yetmediğinde: etikete açılım ekleme kuralı
 
-Slash-style etiket, §893'te tanımlanan preset çağrısıdır. Etiket tek başına bırakıldığında model boşlukları varsayılanla doldurur. Aşağıdaki dört durumda varsayılana güvenmeyin, açılımı yazın:
+Slash-style etiket, [§893](30-katalog-aile-009-016.md#sec-893)'te tanımlanan preset çağrısıdır. Etiket tek başına bırakıldığında model boşlukları varsayılanla doldurur. Aşağıdaki dört durumda varsayılana güvenmeyin, açılımı yazın:
 
 1. **Kimlik:** Yüz, kıyafet, vücut ölçüsü korunacaksa.
 2. **Yazı:** Görselde belirli bir metin basılacaksa (tırnakla birlikte, 2626).
@@ -226,7 +228,7 @@ Mesaj başına tek değişiklik ilkesi iki modelde de işleri kontrol edilebilir
 
 ## Amaç
 
-Aynı kaynak fotoğrafı iki modelde `/lego` ile dönüştürüp farkları kaydetmek. Açılım promptu §892'dedir.
+Aynı kaynak fotoğrafı iki modelde `/lego` ile dönüştürüp farkları kaydetmek. Açılım promptu [§892](30-katalog-aile-009-016.md#sec-892)'dedir.
 
 ### ChatGPT varyantı
 
@@ -277,7 +279,7 @@ Kutu ve kaide gibi ikincil nesneler içeren koleksiyon figürü dönüşümünde
 
 ## Neye dikkat edilmeli?
 
-Kutu üstü yazı her harften kontrol edilmelidir (§18). Marka adı geçen kutu istemek telif riskini de beraberinde getirir (2656); jenerik kutu kullanın.
+Kutu üstü yazı her harften kontrol edilmelidir ([§18](10-temeller-001-222.md#sec-18)). Marka adı geçen kutu istemek telif riskini de beraberinde getirir (2656); jenerik kutu kullanın.
 
 ### Sonuç görseli
 
@@ -294,7 +296,7 @@ Kutu üstü yazı her harften kontrol edilmelidir (§18). Marka adı geçen kutu
 
 ## Amaç
 
-Eğitim amaçlı kesit görünümde (§5) iki modelin teknik doğruluk davranışını görmek.
+Eğitim amaçlı kesit görünümde ([§5](10-temeller-001-222.md#sec-5)) iki modelin teknik doğruluk davranışını görmek.
 
 ### ChatGPT varyantı
 
@@ -306,12 +308,12 @@ Eğitim amaçlı kesit görünümde (§5) iki modelin teknik doğruluk davranı�
 
 ## Beklenen fark
 
-- Etiket iç yapıyı modelin tahminiyle doldurur: gerçek nesne değilse iki model de uydurabilir. Rehber §90'daki uyarı burada da geçerlidir: aynı prompt aynı doğruluğu vermez.
+- Etiket iç yapıyı modelin tahminiyle doldurur: gerçek nesne değilse iki model de uydurabilir. Rehber [§90](10-temeller-001-222.md#sec-90)'daki uyarı burada da geçerlidir: aynı prompt aynı doğruluğu vermez.
 - Türkçe etiket yazımında Nano Banana'nın metin kontrolü avantajlıdır; ChatGPT uzun etiket listesinde harf hatası yapabilir.
 
 ## Neye dikkat edilmeli?
 
-Kesit görünümünde doğruluk, estetikten önce gelir: parça adları ders kitabıyla eşleşiyor mu, iç yapı makul mü? Şüphede konu uzmanına göstermeden kullanmayın (§18).
+Kesit görünümünde doğruluk, estetikten önce gelir: parça adları ders kitabıyla eşleşiyor mu, iç yapı makul mü? Şüphede konu uzmanına göstermeden kullanmayın ([§18](10-temeller-001-222.md#sec-18)).
 
 ### Sonuç görseli
 
@@ -345,7 +347,7 @@ Metin + grafik + fotoğrafın tek karede birleştiği kartpostal formatında iki
 
 ## Neye dikkat edilmeli?
 
-Kartpostal metni başlıktan ibaret kalmalı; modelin "Hoş geldiniz…" gibi ek cümle ekleme isteğini sınırlayın. Şehir adının dönemi doğru olsun: tarihsel ad ile bugünkü ad farklıysa hangisini istediğinizi bilin (§89'da bilgi kaynağı olmadığı uyarısı).
+Kartpostal metni başlıktan ibaret kalmalı; modelin "Hoş geldiniz…" gibi ek cümle ekleme isteğini sınırlayın. Şehir adının dönemi doğru olsun: tarihsel ad ile bugünkü ad farklıysa hangisini istediğinizi bilin ([§89](10-temeller-001-222.md#sec-89)'da bilgi kaynağı olmadığı uyarısı).
 
 ### Sonuç görseli
 
@@ -362,7 +364,7 @@ Kartpostal metni başlıktan ibaret kalmalı; modelin "Hoş geldiniz…" gibi ek
 
 ## Amaç
 
-Işık yayması gereken bir efektte (§1660 civarı aile) iki modelin yarı saydamlık ve ışık kontrolünü görmek.
+Işık yayması gereken bir efektte ([§1660](31-katalog-aile-017-023.md#sec-1660) civarı aile) iki modelin yarı saydamlık ve ışık kontrolünü görmek.
 
 ### ChatGPT varyantı
 
@@ -514,7 +516,7 @@ Bu terimler rehberde zaten sistematik işlenmiş durumda: `Kamera, Lens, Işık 
 
 ## Neye dikkat edilmeli?
 
-Işık ve kamera terimleri gerçek bir fotoğrafçılık anlamı taşır; hobi mükemmelliği kelimeleri gibi boş süse dönüşmemeli (§165). "Cinematic 8K ultra detailed" fotoğrafçılık bilgisi değil, gürültüdür.
+Işık ve kamera terimleri gerçek bir fotoğrafçılık anlamı taşır; hobi mükemmelliği kelimeleri gibi boş süse dönüşmemeli ([§165](10-temeller-001-222.md#sec-165)). "Cinematic 8K ultra detailed" fotoğrafçılık bilgisi değil, gürültüdür.
 
 ---
 
@@ -548,6 +550,7 @@ Bu aile, rehberin model-agnostik prompt dilini hangi araca taşıyacağınıza k
 
 ---
 
+<a id="sec-2641"></a>
 # 2641. Araç seçimi neden prompt dilinden sonra gelir?
 
 ## Kalıcı
@@ -597,7 +600,7 @@ Prompt önce yazılır; araç, o promptun en az bozulacağı taşıyıcı olarak
 Midjourney, rehberde parametre sözdizimini belgeleyen tek araca laık: promptun sonuna eklenen kısa anahtarlar davranışı değiştirir.
 
 - `--ar 16:9` — en-boy oranı (2650)
-- `--sref <görsel>` — stil referansı; stil tutarlılığı için (§2011 civarı aile)
+- `--sref <görsel>` — stil referansı; stil tutarlılığı için ([§2011](32-katalog-aile-024-043.md#sec-2011) civarı aile)
 - `--sw <0–1000>` — stil referansının dozu
 - `--stylize <değer>` — modelin estetik yorum özgürlüğü
 
@@ -625,10 +628,11 @@ ChatGPT'nin gücü üç yerde toplanır:
 
 ## Neye dikkat edilmeli?
 
-Prompt sadakati, yanlış tarifin de sadakatle uygulandığı anlamına gelir: §17'deki zayıf/ kontrollü prompt farkı burada net görülür. Modelin tahmine bıraktığınız boşluk, sizin kontrolünüzden çıkmıştır.
+Prompt sadakati, yanlış tarifin de sadakatle uygulandığı anlamına gelir: [§17](10-temeller-001-222.md#sec-17)'deki zayıf/ kontrollü prompt farkı burada net görülür. Modelin tahmine bıraktığınız boşluk, sizin kontrolünüzden çıkmıştır.
 
 ---
 
+<a id="sec-2645"></a>
 # 2645. Gemini (Nano Banana Pro) — referanslı düzenleme ve seri tutarlılık
 
 ## Kalıcı
@@ -723,7 +727,7 @@ Aşağıdaki tablo "hangi iş, hangi araçla başlar" sorusunun kısa cevabıdı
 
 ## Neye dikkat edilmeli?
 
-Tablo akışı sabitlemez: aynı iş iki araçta denenebilir ve A/B kaydınızla (2637) kendi kurumunuz için doğrulanmış seçim yapılır. Araç seçimi, §90'daki kuralın bir uzantısıdır: aynı prompt her araçta aynı sonucu vermez.
+Tablo akışı sabitlemez: aynı iş iki araçta denenebilir ve A/B kaydınızla (2637) kendi kurumunuz için doğrulanmış seçim yapılır. Araç seçimi, [§90](10-temeller-001-222.md#sec-90)'daki kuralın bir uzantısıdır: aynı prompt her araçta aynı sonucu vermez.
 
 ---
 
@@ -733,13 +737,14 @@ Oran, promptun en başında değil ama **üretim tuşuna basmadan önce** düş�
 
 ---
 
+<a id="sec-2650"></a>
 # 2650. Oran neden prompttan önce düşünülmeli?
 
 ## Kalıcı
 
 **Kalıcı başvuru bilgisi; model sürümleri değiştikçe güncellenir.**
 
-Oran, kompozisyonun çerçevesidir. Kesit görünümü (§5) yatay senaryoda anlaşılırken dik karede sıkışır; flat lay (§ civarı aile) karede güçlüdür, dik formatta kenarlarda boşluk bırakır.
+Oran, kompozisyonun çerçevesidir. Kesit görünümü ([§5](10-temeller-001-222.md#sec-5)) yatay senaryoda anlaşılırken dik karede sıkışır; flat lay (§ civarı aile) karede güçlüdür, dik formatta kenarlarda boşluk bırakır.
 
 Oran sonradan kırpılarak düzeltilebilir; fakat kırpma, modelin kompozisyon kararını keser: etiketler dışarıda kalabilir, denge bozulur. Metin içeren görselde kırpma yazıyı kesebilir; bu durumda yeniden üretim tek çözümdür.
 
@@ -771,6 +776,7 @@ Nano Banana ailesinin desteklediği oranlar (2638) bu tabloyu doğrudan karşıl
 
 ---
 
+<a id="sec-2652"></a>
 # 2652. Araçlarda oranı ayarlama
 
 ## Kalıcı
@@ -806,6 +812,7 @@ Rehberde bu konular şimdiye kadar bölümlerin içinde (sahte kimlik belgesi uy
 
 ---
 
+<a id="sec-2653"></a>
 # 2653. Neden ayrı bir bölüm gerekiyor?
 
 ## Kalıcı
@@ -838,6 +845,7 @@ Araç ücreti, "bu görsel benim malım" garantisi değildir. Üçüncü kişini
 
 ---
 
+<a id="sec-2655"></a>
 # 2655. Gerçek kişiler ve öğrenci fotoğrafları
 
 ## Kalıcı
@@ -848,7 +856,7 @@ Eğitim bağlamının en hassas alanı budur:
 
 - **Öğrenci fotoğrafı** üzerinde düzenleme yapılacaksa veli/öğrenci rızası ve kurumun veri politikası önce gelir. Bulut tabanlı araçlara hassas kişisel fotoğraf göndermek, o veriyi üçüncü tarafa iletme kararıdır.
 - **Rızasız kişi** dönüştürülemez: `/film-noir-portrait` gibi formatlar kişisel/portre fotoğraflarda yalnızca rızalı ya da serbest lisanslı görsellerle çalışılmalıdır (2636).
-- **Ünlü ve kamu personeli:** "X'in yargıç olarak fotoğrafı" istemi, hem kişilik hakları hem §18'deki doğrulama kuralı bakımından sorunludur; kurgusal karakterle çalışın.
+- **Ünlü ve kamu personeli:** "X'in yargıç olarak fotoğrafı" istemi, hem kişilik hakları hem [§18](10-temeller-001-222.md#sec-18)'deki doğrulama kuralı bakımından sorunludur; kurgusal karakterle çalışın.
 
 ## Sınıf içi kısa kural
 
@@ -864,13 +872,13 @@ Gerçek yüz gerekiyorsa rıza + kurum politikası + en az veri ilkesi. Gerçek 
 
 `/lego` gibi formatlar marka estetiğini andırdığı için bu soru sık gelir. Üç katman ayırt edilir:
 
-1. **Jenerik tarife çevirme:** `interlocking toy bricks` (§892'nin notu) marka adı geçmeden aynı görsel dili verir; eğitim materyalinde tercih edilen yoldur.
+1. **Jenerik tarife çevirme:** `interlocking toy bricks` ([§892](30-katalog-aile-009-016.md#sec-892)'nin notu) marka adı geçmeden aynı görsel dili verir; eğitim materyalinde tercih edilen yoldur.
 2. **Marka adı promptta:** Marka estetiği istekleri genellikle çalışır ama çıktının ticari kullanımı marka haklarıyla sınırlıdır.
 3. **Telifli karakter:** Pikachu, Mickey gibi karakterler teliflidir; eğitim diyagramında "telifli karakter" gerekiyorsa lisanslı görsel kullanmak tek güvenli yoldur.
 
 ## Neye dikkat edilmeli?
 
-Rehberdeki dönüşüm formatlarının (minifigür, koleksiyon figürü, kutu) çoğu jenerik tarifeye çevrilebilir durumdadır; §892'deki gibi `interlocking toy bricks` yerine marka adı kullanmak zorunlu değildir.
+Rehberdeki dönüşüm formatlarının (minifigür, koleksiyon figürü, kutu) çoğu jenerik tarifeye çevrilebilir durumdadır; [§892](30-katalog-aile-009-016.md#sec-892)'deki gibi `interlocking toy bricks` yerine marka adı kullanmak zorunlu değildir.
 
 ---
 
@@ -885,7 +893,7 @@ Nano Banana ailesi her çıktıya görünmez SynthID filigranı ekler ve C2PA i�
 Bu iki nedenden önemlidir:
 
 1. **Şeffaflık:** Görselin AI ile üretildiği doğrulanabilir; eğitim materyalinde bu bir sorun değil, özellik.
-2. **Kanıt değeri:** AI görseli belge yerine geçmez (§89). C2PA bilgisi "üretim geçmişi" kanıtlar, gerçeklik kanıtlamaz.
+2. **Kanıt değeri:** AI görseli belge yerine geçmez ([§89](10-temeller-001-222.md#sec-89)). C2PA bilgisi "üretim geçmişi" kanıtlar, gerçeklik kanıtlamaz.
 
 ## Neye dikkat etilmeli?
 
@@ -901,15 +909,15 @@ Görsel üretim öncesi ve sonrası tek bakışta geçilecek liste:
 - [ ] Kaynak fotoğraf varsa: rızası ve lisansı uygun mu?
 - [ ] Görselde tanınabilir gerçek kişi var mı? Varsa gerekçesi yazılı mı?
 - [ ] Marka, logo, telifli karakter var mı? Jenerik tarifeye çevrilebilir mi?
-- [ ] Metinler harf harf doğru mu? (§18)
+- [ ] Metinler harf harf doğru mu? ([§18](10-temeller-001-222.md#sec-18))
 - [ ] Görsel "gerçek" sunuluyor mu? Temsilî olduğu belli mi?
 - [ ] Paylaşım yeri (site, kitap, platform) araç koşullarıyla uyumlu mu? (2654)
 - [ ] Üretim aracı ve tarih kaydedildi mi? (A/B kaydı, 2637)
-- [ ] Dinî ve millî hassasiyet var mı? Peygamber tasviri, ibadetle alay, kutsala saygısızlık, bayrak/şehitlik istismarı ve kültür karikatürü yok mu? (§1563, aile-147)
+- [ ] Dinî ve millî hassasiyet var mı? Peygamber tasviri, ibadetle alay, kutsala saygısızlık, bayrak/şehitlik istismarı ve kültür karikatürü yok mu? ([§1563](31-katalog-aile-017-023.md#sec-1563), aile-147)
 
 ## Neye dikkat edilmeli?
 
-Bu liste §45'in görsel doğrulama listesiyle birlikte kullanılır: biri görselin teknik doğruluğunu, bu liste görselin etik ve hukuki konumunu kontrol eder.
+Bu liste [§45](10-temeller-001-222.md#sec-45)'in görsel doğrulama listesiyle birlikte kullanılır: biri görselin teknik doğruluğunu, bu liste görselin etik ve hukuki konumunu kontrol eder.
 
 ---
 
@@ -973,7 +981,7 @@ Maske bölgesini "sağ duvardaki pano" gibi konum + nesne ile tanımlayın. "Pan
 Konuşmalı düzenlemede kontrol, dozu ayarlamaktan geçer:
 
 1. Tek değişiklik isteyin: "arka planı gece yap."
-2. Sonucu değerlendirin (§45).
+2. Sonucu değerlendirin ([§45](10-temeller-001-222.md#sec-45)).
 3. Yeni değişikliği yeni mesajda isteyin.
 
 Beş değişiklik tek cümlede birleştirilirse hangisinin uygulanmadığı ayrıştırılamaz; her adımda geri dönüş noktası kaybolur.
@@ -1006,7 +1014,7 @@ Ders kitabı sayfası, hikâye dizisi ve sosyal medya serisi birden çok görsel
 
 ## Neye dikkat edilmeli?
 
-Tutarlılık %100 değildir; karakter detayları sahne değiştikçe kayabilir. Kritik projede her görseli yan yana koyup §45 listesiyle ayrı ayrı kontrol edin; kayma varsa referans görseli yeniden yükleyin.
+Tutarlılık %100 değildir; karakter detayları sahne değiştikçe kayabilir. Kritik projede her görseli yan yana koyup [§45](10-temeller-001-222.md#sec-45) listesiyle ayrı ayrı kontrol edin; kayma varsa referans görseli yeniden yükleyin.
 
 ---
 
@@ -1030,7 +1038,7 @@ Yeniden boyutlandırılmış görselde metin yeniden kontrol edilir: ölçek de�
 <a id="sec-2664"></a>
 # 2664. Düzenleme slop filtresi
 
-Düzenleme akışı kendi slop risklerini taşır; §163'teki genel belirtiler burada şöyle somutlaşır:
+Düzenleme akışı kendi slop risklerini taşır; [§163](10-temeller-001-222.md#sec-163)'teki genel belirtiler burada şöyle somutlaşır:
 
 - **Aşırı parlama:** Her düzenlemede ışık biraz daha şişer; Amount'ı düşürün (2630).
 - **Doku kayması:** Düzenlenen bölge kalan görselden daha pürüzsüz olur; "doku aynı kalsın" kısıtını ekleyin (2630).
@@ -1046,10 +1054,11 @@ Her düzenleme adımından sonra görseli bir öncekiyle yan yana koyun: fark is
 <a id="aile-134"></a>
 # İndeks Kelimesinden Tam Preset'e — En Sık Geçen Dokuz Kısayol
 
-Rehber taramasında bazı kısayolların tur indekslerinde ve aile metinlerinde ikişer üçer kez geçtiği, ama bağımsız bölümü olmadığı görüldü (§891'deki üç statüden “indeks kelimesi” grubundakiler). Aşağıdaki dokuz bölüm bu boşluğu kapatır; her biri daha önce atıf yapılan adın ilk tam preset karşılığıdır.
+Rehber taramasında bazı kısayolların tur indekslerinde ve aile metinlerinde ikişer üçer kez geçtiği, ama bağımsız bölümü olmadığı görüldü ([§891](30-katalog-aile-009-016.md#sec-891)'deki üç statüden “indeks kelimesi” grubundakiler). Aşağıdaki dokuz bölüm bu boşluğu kapatır; her biri daha önce atıf yapılan adın ilk tam preset karşılığıdır.
 
 ---
 
+<a id="sec-2665"></a>
 # 2665. `/continuity-lock` — Seri Süreklilik Kilidi
 
 ## Türkçe prompt
@@ -1082,6 +1091,7 @@ Malzeme değişince ışık da değişir; gölge ve yansıma yeni malzemeye uymu
 
 ---
 
+<a id="sec-2667"></a>
 # 2667. `/material-grid` — Aynı Nesnenin Malzeme Karşılaştırması
 
 ## Türkçe prompt
@@ -1094,10 +1104,11 @@ Malzeme değişince ışık da değişir; gölge ve yansıma yeni malzemeye uymu
 
 ## Neye dikkat edilmeli?
 
-Hücre sayısı sabitlensin (§1971); model fazladan hücre eklemeye eğilimlidir. Malzeme adlarındaki yazı harf harf denetlenir.
+Hücre sayısı sabitlensin ([§1971](32-katalog-aile-024-043.md#sec-1971)); model fazladan hücre eklemeye eğilimlidir. Malzeme adlarındaki yazı harf harf denetlenir.
 
 ---
 
+<a id="sec-2668"></a>
 # 2668. `/tunnel-book` — Katmanlı Kâğıt Derinlik
 
 ## Türkçe prompt
@@ -1197,10 +1208,11 @@ Yazı nakışla yazılmaz; metin gerekiyorsa kumaşa iliştirilmiş küçük eti
 <a id="aile-135"></a>
 # Kartpostal Dönemleri ve Seyahat Efemerası — İndeks Kelimelerinin Tam Preset Karşılıkları
 
-§667'deki kartpostal kısayolları ile §722'deki ephemera kısayolları tur indekslerinde ad olarak geçiyor, bağımsız bölümleri yoktu. Aşağıdaki bölümler bu boşluğu kapatır. İki ailenin ortak kuralları burada da geçerlidir: kartpostalda önce dönem ve üretim biçimi seçilir, kusurlar o baskı sürecinden türetilir (§667); efemerada nesnenin gerçek işlevi, dönemi, baskı tekniği, gerekli bilgisi ve doğal kullanım izi sırayla kurulur (§722). Bilet, biniş kartı ve pul türü öğeler açıkça kurmaca ve illüstrasyon olarak üretilir; gerçek kurum adı, logo ve sahte resmiyet izlenimi verilmez.
+[§667](20-sosyal-medya-aile-001-004.md#sec-667)'deki kartpostal kısayolları ile [§722](21-sosyal-medya-aile-005-008.md#sec-722)'deki ephemera kısayolları tur indekslerinde ad olarak geçiyor, bağımsız bölümleri yoktu. Aşağıdaki bölümler bu boşluğu kapatır. İki ailenin ortak kuralları burada da geçerlidir: kartpostalda önce dönem ve üretim biçimi seçilir, kusurlar o baskı sürecinden türetilir ([§667](20-sosyal-medya-aile-001-004.md#sec-667)); efemerada nesnenin gerçek işlevi, dönemi, baskı tekniği, gerekli bilgisi ve doğal kullanım izi sırayla kurulur ([§722](21-sosyal-medya-aile-005-008.md#sec-722)). Bilet, biniş kartı ve pul türü öğeler açıkça kurmaca ve illüstrasyon olarak üretilir; gerçek kurum adı, logo ve sahte resmiyet izlenimi verilmez.
 
 ---
 
+<a id="sec-2674"></a>
 # 2674. `/large-letter` — Büyük Harfli Kartpostal
 
 ## Türkçe prompt
@@ -1389,7 +1401,7 @@ Ufuk ve perspektif panel sınırlarında kırılmasın; model her paneli ayrı s
 
 ## Neye dikkat edilmeli?
 
-Değişen yalnız zaman olsun (§23 mantığı): açı, ölçek ve ışık yönü sabit kalsın. Tarihsel yarıdaki dönem detayları ayrıca doğrulanır.
+Değişen yalnız zaman olsun ([§23](10-temeller-001-222.md#sec-23) mantığı): açı, ölçek ve ışık yönü sabit kalsın. Tarihsel yarıdaki dönem detayları ayrıca doğrulanır.
 
 ---
 
@@ -1858,12 +1870,13 @@ Sistem tutarlılığı esastır: renk, font ve amblem bütün parçalarda aynı 
 ---
 
 <a id="aile-137"></a>
-# §891 İndeksinin Tam Preset Karşılıkları — Portre, Moda, Mekân, Ambalaj, Müzik, Harita
+# [§891](30-katalog-aile-009-016.md#sec-891) İndeksinin Tam Preset Karşılıkları — Portre, Moda, Mekân, Ambalaj, Müzik, Harita
 
-§891'deki “Bu tur için slash-style kısa adlar” tablosundaki satırların bir kısmının bağımsız bölümü yoktu. Aşağıdaki bölümler bu boşluğu kapatır. Zaten tam preset karşılığı olanlar kapsanmamıştır: `/direct-flash` §1333, `/scanography` §1730, `/material-board` §1652, `/material-grid` §2667, `/sensory-closeup` §1549'tadır.
+[§891](30-katalog-aile-009-016.md#sec-891)'deki “Bu tur için slash-style kısa adlar” tablosundaki satırların bir kısmının bağımsız bölümü yoktu. Aşağıdaki bölümler bu boşluğu kapatır. Zaten tam preset karşılığı olanlar kapsanmamıştır: `/direct-flash` [§1333](31-katalog-aile-017-023.md#sec-1333), `/scanography` [§1730](32-katalog-aile-024-043.md#sec-1730), `/material-board` [§1652](31-katalog-aile-017-023.md#sec-1652), `/material-grid` [§2667](#sec-2667), `/sensory-closeup` [§1549](31-katalog-aile-017-023.md#sec-1549)'tadır.
 
 ---
 
+<a id="sec-2746"></a>
 # 2746. `/party-snapshot` — Parti Anı Fotoğrafı
 
 ## Türkçe prompt
@@ -1988,7 +2001,7 @@ Pürüzsüzlük ile plastiklik sınırı yakındır; yakın planda doku kontrol 
 
 ## Neye dikkat edilmeli?
 
-Metin alanı gerçekten boş kalsın; model doldurmaya eğilimlidir. Başlık boşluğu masthead için yeterli olsun (§2193).
+Metin alanı gerçekten boş kalsın; model doldurmaya eğilimlidir. Başlık boşluğu masthead için yeterli olsun ([§2193](33-katalog-aile-044-076.md#sec-2193)).
 
 ---
 
@@ -2052,7 +2065,7 @@ Her parça en az üç kombinasyona girmeli; girmeyen parça panodan çıkarılı
 
 ## Neye dikkat edilmeli?
 
-Katman sırası giyilme sırasını izlesin; karışık sıra öğreticiliği bitirir (§4 mantığı). Parçalar aynı bedene aitmiş gibi dursun.
+Katman sırası giyilme sırasını izlesin; karışık sıra öğreticiliği bitirir ([§4](10-temeller-001-222.md#sec-4) mantığı). Parçalar aynı bedene aitmiş gibi dursun.
 
 ---
 
@@ -2132,7 +2145,7 @@ Işık kitap üzerine düşsün; loş köşede okunmayan kitap sahte durur. Kiş
 
 ## Neye dikkat edilmeli?
 
-Değişen yalnız incelenen değişken olsun (§23 mantığı); ışık değiştiyse karşılaştırma kirlenir. Eşyaların gölgeleri yeni düzene uysun.
+Değişen yalnız incelenen değişken olsun ([§23](10-temeller-001-222.md#sec-23) mantığı); ışık değiştiyse karşılaştırma kirlenir. Eşyaların gölgeleri yeni düzene uysun.
 
 ---
 
@@ -2356,7 +2369,7 @@ Gizli katman gerçekten okunabilir olsun; bulanık vaat güven vermez. Yapışka
 
 ## Neye dikkat edilmeli?
 
-Zanaat doğru temsil edilsin; motif ve teknik o bölgeye ait olsun. Kültürel öğe kostüm gibi kullanılmasın (§1570).
+Zanaat doğru temsil edilsin; motif ve teknik o bölgeye ait olsun. Kültürel öğe kostüm gibi kullanılmasın ([§1570](31-katalog-aile-017-023.md#sec-1570)).
 
 ---
 
@@ -2380,11 +2393,11 @@ Kutu gerçekten ayırt edilemez olsun; ağırlık ve ses ipucu veren detaylar tu
 
 ## Türkçe prompt
 
-> [ÜRÜN]'ün malzeme anatomisini göster: dış kabuk yarı saydam ya da kesitli, iç katmanlar etiketli; her malzeme gerçek dokusuyla ayırt edilsin. Kesit görünümü mantığı kullanılsın (§5).
+> [ÜRÜN]'ün malzeme anatomisini göster: dış kabuk yarı saydam ya da kesitli, iç katmanlar etiketli; her malzeme gerçek dokusuyla ayırt edilsin. Kesit görünümü mantığı kullanılsın ([§5](10-temeller-001-222.md#sec-5)).
 
 ## English
 
-> Show the material anatomy of [PRODUCT]: a half-transparent or sectioned outer shell with labeled inner layers, each material distinct in real texture. Use cutaway-view logic (§5).
+> Show the material anatomy of [PRODUCT]: a half-transparent or sectioned outer shell with labeled inner layers, each material distinct in real texture. Use cutaway-view logic ([§5](10-temeller-001-222.md#sec-5)).
 
 ## Neye dikkat edilmeli?
 
@@ -2404,7 +2417,7 @@ Katman sırası gerçek ürüne uysun; uydurma katman teknik incelemede hemen be
 
 ## Neye dikkat edilmeli?
 
-Başlık harf harf denetlenir; kapak yazısındaki tek harf hatası affedilmez. Tür klişeleri filtresi uygulansın (§1054).
+Başlık harf harf denetlenir; kapak yazısındaki tek harf hatası affedilmez. Tür klişeleri filtresi uygulansın ([§1054](30-katalog-aile-009-016.md#sec-1054)).
 
 ---
 
@@ -2468,7 +2481,7 @@ Tarihler ve mekânlar birbiriyle tutarlı olsun. Bilet ve kartlar sahte-resmiyet
 
 ## Neye dikkat edilmeli?
 
-Veri-harital eşleşmesi doğrulanır; yanlış konumlandırılmış veri tüm grafiği çürütür. Kaynaksız harita kullanılmaz (§1830).
+Veri-harital eşleşmesi doğrulanır; yanlış konumlandırılmış veri tüm grafiği çürütür. Kaynaksız harita kullanılmaz ([§1830](32-katalog-aile-024-043.md#sec-1830)).
 
 ---
 
@@ -2564,7 +2577,7 @@ Simge-değer oranı sabit ve yazılı olsun; oran değişirse grafik yalan söyl
 
 ## Neye dikkat edilmeli?
 
-Kilitlenmeyen tek parametre sonucu kirletir; gölge yönüyle kamera sabitliği ayrıca doğrulanır (§23 mantığı).
+Kilitlenmeyen tek parametre sonucu kirletir; gölge yönüyle kamera sabitliği ayrıca doğrulanır ([§23](10-temeller-001-222.md#sec-23) mantığı).
 
 ---
 
@@ -2580,17 +2593,18 @@ Kilitlenmeyen tek parametre sonucu kirletir; gölge yönüyle kamera sabitliği 
 
 ## Neye dikkat edilmeli?
 
-Kimlik bütün hücrelerde aynı kalsın (§1971); sapan hücre tek başına üretilsin. Stil değişimi kimliği sürüklemesin.
+Kimlik bütün hücrelerde aynı kalsın ([§1971](32-katalog-aile-024-043.md#sec-1971)); sapan hücre tek başına üretilsin. Stil değişimi kimliği sürüklemesin.
 
 ---
 
 <a id="aile-136"></a>
 # Pop-up Kâğıt Mühendisliği ve Şehir Tekstilleri — İndeks Kelimelerinin Tam Preset Karşılıkları
 
-aile-006'daki kâğıt mühendisliği ve şehir tekstili kısayolları tur indekslerinde ad olarak geçiyor, bağımsız bölümleri yoktu. Aşağıdaki bölümler bu boşluğu kapatır. Ailenin iki kuralı burada da geçerlidir: pop-up mekanizması fiziksel olarak kapanabilir ve kesim-katlama-iz ilişkisi dürüst olsun; tekstilde baskı çözünürlüğü ve tekrar raporu (rapor) belirtilsin. Şehir skyline ve tek landmark pop-up kartlarının tam presetleri zaten §724–725'tedir; tunnel book tekniği §2668'dedir.
+aile-006'daki kâğıt mühendisliği ve şehir tekstili kısayolları tur indekslerinde ad olarak geçiyor, bağımsız bölümleri yoktu. Aşağıdaki bölümler bu boşluğu kapatır. Ailenin iki kuralı burada da geçerlidir: pop-up mekanizması fiziksel olarak kapanabilir ve kesim-katlama-iz ilişkisi dürüst olsun; tekstilde baskı çözünürlüğü ve tekrar raporu (rapor) belirtilsin. Şehir skyline ve tek landmark pop-up kartlarının tam presetleri zaten [§724](21-sosyal-medya-aile-005-008.md#sec-724)–725'tedir; tunnel book tekniği [§2668](#sec-2668)'dedir.
 
 ---
 
+<a id="sec-2715"></a>
 # 2715. `/accordion-city` — Akordeon Şehir Şeridi
 
 ## Türkçe prompt
@@ -2627,11 +2641,11 @@ Derinlik katman aralığından gelsin; bulanık arka planla taklit edilmesin. Tu
 
 ## Türkçe prompt
 
-> [SAHNE]'yi önden bakınca derinlik üreten tünel kart (tunnel card) olarak göster: delikli ön kapak, 3–4 iç katman ve arka kapak; katmanlar kartın yan duvarlarıyla bağlı olsun. Tunnel book'tan farkı tek kart formatında olmasıdır (§2668).
+> [SAHNE]'yi önden bakınca derinlik üreten tünel kart (tunnel card) olarak göster: delikli ön kapak, 3–4 iç katman ve arka kapak; katmanlar kartın yan duvarlarıyla bağlı olsun. Tunnel book'tan farkı tek kart formatında olmasıdır ([§2668](#sec-2668)).
 
 ## English
 
-> Show [SCENE] as a tunnel card producing depth when viewed head-on: a die-cut front cover, 3–4 inner layers, and a back cover, with layers joined by the card's side walls. Unlike a tunnel book (§2668), it stays a single-card format.
+> Show [SCENE] as a tunnel card producing depth when viewed head-on: a die-cut front cover, 3–4 inner layers, and a back cover, with layers joined by the card's side walls. Unlike a tunnel book ([§2668](#sec-2668)), it stays a single-card format.
 
 ## Neye dikkat edilmeli?
 
@@ -3094,6 +3108,7 @@ Craft-as-Process ailesindeki malzeme kısayolları indekslerde ad olarak geçiyo
 
 ---
 
+<a id="sec-2791"></a>
 # 2791. `/amigurumi` — Amigurumi Figür
 
 ## Türkçe prompt
@@ -3218,7 +3233,7 @@ Dikiş yerleri gerilimi taşısın; dikişsiz kumaş nesne inandırıcı durmaz.
 
 ## Neye dikkat edilmeli?
 
-Tek kırılma kuralı katıdır; iki kırılma tek fikri öldürür (§1564). Normal kalan kısım ne kadar sıradansa kırılma o kadar güçlü olur.
+Tek kırılma kuralı katıdır; iki kırılma tek fikri öldürür ([§1564](31-katalog-aile-017-023.md#sec-1564)). Normal kalan kısım ne kadar sıradansa kırılma o kadar güçlü olur.
 
 ---
 
@@ -3417,7 +3432,7 @@ Desen bütün parçalarda aynı olsun; parça başına farklı desen seti bozar.
 
 ## Neye dikkat edilmeli?
 
-Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi (§2088). Başlıklar okunabilir kalsın.
+Dağınıklık bilinçli sınırlansın: en fazla iki yazı tipi, bir vurgu rengi ([§2088](33-katalog-aile-044-076.md#sec-2088)). Başlıklar okunabilir kalsın.
 
 ---
 
@@ -3625,7 +3640,7 @@ Cam yansımaları iç düzeni kapatmasın. Bitkiler aynı ışık isteğine sahi
 
 ## Neye dikkat edilmeli?
 
-Katman sırası gerçek tarife uysun; sos alta inerse anatomi bozulur (§4 mantığı). Malzemeler taze ve iştah açıcı dursun.
+Katman sırası gerçek tarife uysun; sos alta inerse anatomi bozulur ([§4](10-temeller-001-222.md#sec-4) mantığı). Malzemeler taze ve iştah açıcı dursun.
 
 ---
 
@@ -3944,15 +3959,15 @@ Piksel boyutu bütün ikonlarda aynı olsun; karışık çözünürlük amatör 
 
 ## Türkçe prompt
 
-> [ÜRETİM]'i zaman-adım çözümlemesi olarak göster: aşamalar sırayla, her aşamada girdi-çıktı ve süre bilgisi; akış tek yönde okunsun. Süreç diyagramı mantığı kullanılsın (§20).
+> [ÜRETİM]'i zaman-adım çözümlemesi olarak göster: aşamalar sırayla, her aşamada girdi-çıktı ve süre bilgisi; akış tek yönde okunsun. Süreç diyagramı mantığı kullanılsın ([§20](10-temeller-001-222.md#sec-20)).
 
 ## English
 
-> Show [PRODUCTION] as a time-step breakdown: stages in order with input-output and duration at each stage, reading in one direction. Use process-diagram logic (§20).
+> Show [PRODUCTION] as a time-step breakdown: stages in order with input-output and duration at each stage, reading in one direction. Use process-diagram logic ([§20](10-temeller-001-222.md#sec-20)).
 
 ## Neye dikkat edilmeli?
 
-Süre ve sıra gerçek üretimle uyuşsun; uydurma süre planlamayı çürütür. Karar noktası varsa akış şemasına geçilsin (§21).
+Süre ve sıra gerçek üretimle uyuşsun; uydurma süre planlamayı çürütür. Karar noktası varsa akış şemasına geçilsin ([§21](10-temeller-001-222.md#sec-21)).
 
 ---
 
@@ -3960,15 +3975,15 @@ Süre ve sıra gerçek üretimle uyuşsun; uydurma süre planlamayı çürütür
 
 ## Türkçe prompt
 
-> [MAKİNE / AĞ]'ı işlevsel alt sistemlere ayırarak göster: her alt sistem kutulu, bağlantılar etiketli oklarla; kutular işleve göre renklensin. Şematik dil kullanılsın (§49).
+> [MAKİNE / AĞ]'ı işlevsel alt sistemlere ayırarak göster: her alt sistem kutulu, bağlantılar etiketli oklarla; kutular işleve göre renklensin. Şematik dil kullanılsın ([§49](10-temeller-001-222.md#sec-49)).
 
 ## English
 
-> Show [MACHINE / NETWORK] divided into functional subsystems: boxed subsystems with labeled-arrow connections, colored by function. Use schematic language (§49).
+> Show [MACHINE / NETWORK] divided into functional subsystems: boxed subsystems with labeled-arrow connections, colored by function. Use schematic language ([§49](10-temeller-001-222.md#sec-49)).
 
 ## Neye dikkat edilmeli?
 
-Bağlantı yönleri gerçek veri/enerji akışını izlesin; ters ok tüm anlamı bozar (§21 mantığı). Kutu sayısı arttıkça her bağlantı ayrı denetlensin.
+Bağlantı yönleri gerçek veri/enerji akışını izlesin; ters ok tüm anlamı bozar ([§21](10-temeller-001-222.md#sec-21) mantığı). Kutu sayısı arttıkça her bağlantı ayrı denetlensin.
 
 ---
 
@@ -4007,10 +4022,11 @@ Denemeler gerçekten denenmiş gibi dursun; süs niyetine konmuş baskı örneğ
 <a id="aile-141"></a>
 # Ders Konu Galerileri — Fen Bilimleri ve Matematik
 
-Bu aile, rehberin eğitim misyonunu konuya indirir: her bölüm bir ders kazanımına hazır prompt verir. Biçim seçimi §3 tablosuna, doğrulama §18 listesine dayanır. Her bölümde seviye (ilkokul / ortaokul) belirtilir; seviye değişince yalnız dil değil, gösterim biçimi de sadeleşir.
+Bu aile, rehberin eğitim misyonunu konuya indirir: her bölüm bir ders kazanımına hazır prompt verir. Biçim seçimi [§3](10-temeller-001-222.md#sec-3) tablosuna, doğrulama [§18](10-temeller-001-222.md#sec-18) listesine dayanır. Her bölümde seviye (ilkokul / ortaokul) belirtilir; seviye değişince yalnız dil değil, gösterim biçimi de sadeleşir.
 
 ---
 
+<a id="sec-2847"></a>
 # 2847. `/cell-compare` — Fen: Bitki ve Hayvan Hücresi Karşılaştırma (Ortaokul)
 
 ## Seviye
@@ -4031,6 +4047,7 @@ Organel adları ve hücreye özgü yapılar ders kitabıyla birebir karşılaşt
 
 ---
 
+<a id="sec-2848"></a>
 # 2848. `/circuit-pair` — Fen: Seri ve Paralel Devre (Ortaokul)
 
 ## Seviye
@@ -4051,6 +4068,7 @@ Semboller standart olsun; gerçekçi pil fotoğrafı şemayı bozar. Parlaklık 
 
 ---
 
+<a id="sec-2849"></a>
 # 2849. `/friction-strip` — Fen: Sürtünme Kuvveti Deneyi (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -4067,6 +4085,7 @@ Ok yönleri fizikle uyuşsun: sürtünme her zaman harekete terstir; ters çizil
 
 ---
 
+<a id="sec-2850"></a>
 # 2850. `/digestion-journey` — Fen: Sindirim Sistemi Yolculuğu (Ortaokul)
 
 ## Türkçe prompt
@@ -4099,6 +4118,7 @@ Organ sırası ve bağlantıları ders kitabıyla doğrulanır; model bağırsak
 
 ---
 
+<a id="sec-2852"></a>
 # 2852. `/fraction-circles` — Matematik: Kesirler (İlkokul)
 
 ## Türkçe prompt
@@ -4115,6 +4135,7 @@ Bütün daireler aynı büyüklükte olsun; farklı boyda bütün, kesir kavram�
 
 ---
 
+<a id="sec-2853"></a>
 # 2853. `/solid-nets` — Matematik: Geometrik Cisimlerin Açılımı (Ortaokul)
 
 ## Türkçe prompt
@@ -4131,6 +4152,7 @@ Açılım gerçekten katlanabilir olsun; öğretmenin kâğıt çıktıyla test 
 
 ---
 
+<a id="sec-2854"></a>
 # 2854. `/bar-chart-read` — Matematik: Sütun Grafiği Okuma (Ortaokul)
 
 ## Türkçe prompt
@@ -4163,6 +4185,7 @@ Ayna simetrisi piksel piksel tutsun; yaklaşık simetri “neredeyse doğru”yu
 
 ---
 
+<a id="sec-2856"></a>
 # 2856. `/area-grid` — Matematik: Alan Ölçme Izgarada (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -4180,12 +4203,13 @@ Yarım kareler gerçekten yarım olsun; yaklaşık bölünmüş kareler saymayı
 ---
 
 <a id="aile-142"></a>
-# İşlenmiş Örnekler — Zayıftan Kontrollüye (§17 Yöntemi Uygulamada)
+# İşlenmiş Örnekler — Zayıftan Kontrollüye ([§17](10-temeller-001-222.md#sec-17) Yöntemi Uygulamada)
 
-§17'deki üç düzey (zayıf / açık / kontrollü) burada altı konuda işlenir. Her bölümde aynı konu üç hâliyle verilir; farkı yaratanın sıfat çokluğu değil, belirsizliği kapatan cümleler olduğu gösterilir. Her örneğin sonunda §18 kontrol sorularından hangilerinin bu konuda kritik olduğu yazılır.
+[§17](10-temeller-001-222.md#sec-17)'deki üç düzey (zayıf / açık / kontrollü) burada altı konuda işlenir. Her bölümde aynı konu üç hâliyle verilir; farkı yaratanın sıfat çokluğu değil, belirsizliği kapatan cümleler olduğu gösterilir. Her örneğin sonunda [§18](10-temeller-001-222.md#sec-18) kontrol sorularından hangilerinin bu konuda kritik olduğu yazılır.
 
 ---
 
+<a id="sec-2857"></a>
 # 2857. İşlenmiş örnek: Volkan kesiti
 
 ## Zayıf
@@ -4198,7 +4222,7 @@ Biçim yok, seviye yok, etiket dili yok; model sinematik patlama sahnesi de üre
 
 > Bir volkanın iç yapısını kesit görünümünde göster.
 
-Biçim belli (§5); ama hangi yapılar, hangi dilde, hangi üslupla belli değil.
+Biçim belli ([§5](10-temeller-001-222.md#sec-5)); ama hangi yapılar, hangi dilde, hangi üslupla belli değil.
 
 ## Kontrollü
 
@@ -4206,7 +4230,7 @@ Biçim belli (§5); ama hangi yapılar, hangi dilde, hangi üslupla belli değil
 
 ## Neden çalıştı?
 
-Kontrol üç yerden gelir: yapı listesi (eksik kavram engellenir), etiket dili (sınıfta kullanılabilirlik) ve üslup sınırı (dramatik sahne engellenir). Kritik §18 soruları: etiket doğru yapıda mı, model parça uydurmuş mu, görsel seviyeye uygun mu.
+Kontrol üç yerden gelir: yapı listesi (eksik kavram engellenir), etiket dili (sınıfta kullanılabilirlik) ve üslup sınırı (dramatik sahne engellenir). Kritik [§18](10-temeller-001-222.md#sec-18) soruları: etiket doğru yapıda mı, model parça uydurmuş mu, görsel seviyeye uygun mu.
 
 ---
 
@@ -4222,7 +4246,7 @@ Model okları rastgele dağıtabilir, karayı ve denizi karıştırabilir.
 
 > Su döngüsünü döngü diyagramı olarak göster.
 
-Döngü biçimi belli (§10); süreç listesi ve ok mantığı hâlâ modele bırakılmış.
+Döngü biçimi belli ([§10](10-temeller-001-222.md#sec-10)); süreç listesi ve ok mantığı hâlâ modele bırakılmış.
 
 ## Kontrollü
 
@@ -4230,7 +4254,7 @@ Döngü biçimi belli (§10); süreç listesi ve ok mantığı hâlâ modele bı
 
 ## Neden çalıştı?
 
-Süreç listesi kapanışı ve “oklar yalnız gerçek ilişki için” kısıtı, döngü diyagramının en sık hatasını (dekoratif ok) baştan engeller. Kritik §18 soruları: ok yönleri doğru mu, süreç sırası doğru mu.
+Süreç listesi kapanışı ve “oklar yalnız gerçek ilişki için” kısıtı, döngü diyagramının en sık hatasını (dekoratif ok) baştan engeller. Kritik [§18](10-temeller-001-222.md#sec-18) soruları: ok yönleri doğru mu, süreç sırası doğru mu.
 
 ---
 
@@ -4246,7 +4270,7 @@ Süreç listesi kapanışı ve “oklar yalnız gerçek ilişki için” kısıt
 
 > Mitoz ve mayozu yan yana karşılaştır.
 
-Karşılaştırma biçimi belli (§13); neyin karşılaştırılacağı belli değil.
+Karşılaştırma biçimi belli ([§13](10-temeller-001-222.md#sec-13)); neyin karşılaştırılacağı belli değil.
 
 ## Kontrollü
 
@@ -4254,7 +4278,7 @@ Karşılaştırma biçimi belli (§13); neyin karşılaştırılacağı belli de
 
 ## Neden çalıştı?
 
-Karşılaştırma ölçütleri (sayı, hücre adedi, benzerlik) ve “aynı ölçek-dil” kısıtı yazıldı; ölçüt yazılmayan karşılaştırma süslemeye kayar. Kritik §18 soruları: ölçek yanıltıcı mı, temel kavram eksik mi.
+Karşılaştırma ölçütleri (sayı, hücre adedi, benzerlik) ve “aynı ölçek-dil” kısıtı yazıldı; ölçüt yazılmayan karşılaştırma süslemeye kayar. Kritik [§18](10-temeller-001-222.md#sec-18) soruları: ölçek yanıltıcı mı, temel kavram eksik mi.
 
 ---
 
@@ -4270,7 +4294,7 @@ Model dönemleri karıştırabilir, parşömen klişesine gömülebilir.
 
 > Yazının gelişimini zaman çizelgesi olarak göster.
 
-Zaman biçimi belli (§22); hangi duraklar ve hangi üslup belli değil.
+Zaman biçimi belli ([§22](10-temeller-001-222.md#sec-22)); hangi duraklar ve hangi üslup belli değil.
 
 ## Kontrollü
 
@@ -4278,7 +4302,7 @@ Zaman biçimi belli (§22); hangi duraklar ve hangi üslup belli değil.
 
 ## Neden çalıştı?
 
-Durak listesi dönem karışmasını, “süsleme yok” kısıtı klişeyi engeller. Kritik §18 soruları: sıra doğru mu, dekorasyon bilgiyi gölgeliyor mu.
+Durak listesi dönem karışmasını, “süsleme yok” kısıtı klişeyi engeller. Kritik [§18](10-temeller-001-222.md#sec-18) soruları: sıra doğru mu, dekorasyon bilgiyi gölgeliyor mu.
 
 ---
 
@@ -4294,7 +4318,7 @@ Model kavramları etiketsiz çizgilerle bağlar; harita zihin haritasına kayar.
 
 > Ekosistem kavram haritası oluştur.
 
-Kavram haritası biçimi belli (§24); ilişki ifadeleri hâlâ eksik.
+Kavram haritası biçimi belli ([§24](10-temeller-001-222.md#sec-24)); ilişki ifadeleri hâlâ eksik.
 
 ## Kontrollü
 
@@ -4302,7 +4326,7 @@ Kavram haritası biçimi belli (§24); ilişki ifadeleri hâlâ eksik.
 
 ## Neden çalıştı?
 
-Kavram haritasını harita yapan şey bağlantı anlamıdır; ilişki ifadeleri yazılınca model çizgiyi süs olmaktan çıkarır. Kritik §18 sorusu: bağlantıların anlamı doğru mu.
+Kavram haritasını harita yapan şey bağlantı anlamıdır; ilişki ifadeleri yazılınca model çizgiyi süs olmaktan çıkarır. Kritik [§18](10-temeller-001-222.md#sec-18) sorusu: bağlantıların anlamı doğru mu.
 
 ---
 
@@ -4318,7 +4342,7 @@ Model rastgele pil-kablo yığını üretebilir, ölçekler tutmaz.
 
 > Devre malzemelerini üstten düzenlemeyle göster.
 
-Düzen biçimi belli (§29); hangi malzemeler ve hangi düzen kuralı belli değil.
+Düzen biçimi belli ([§29](10-temeller-001-222.md#sec-29)); hangi malzemeler ve hangi düzen kuralı belli değil.
 
 ## Kontrollü
 
@@ -4326,17 +4350,18 @@ Düzen biçimi belli (§29); hangi malzemeler ve hangi düzen kuralı belli değ
 
 ## Neye dikkat edilmeli?
 
-Bu örnekte kontrol listeden gelir: eksiksiz malzeme sayımı ve ızgara kuralı. Kritik §18 soruları: temel kavram eksik mi, ölçek yanıltıcı mı, dekorasyon bilgiyi gölgeliyor mu.
+Bu örnekte kontrol listeden gelir: eksiksiz malzeme sayımı ve ızgara kuralı. Kritik [§18](10-temeller-001-222.md#sec-18) soruları: temel kavram eksik mi, ölçek yanıltıcı mı, dekorasyon bilgiyi gölgeliyor mu.
 
 ---
 
 <a id="aile-143"></a>
 # Çalışılmış A/B Örnekleri — İkinci Grup
 
-§2631–2636'daki ilk grubun devamıdır; yöntem ve protokol aynıdır (§2637–2638). Bu grup iç mekân minyatürü, dönem portresi ve sticker setini kapsar.
+[§2631](#sec-2631)–2636'daki ilk grubun devamıdır; yöntem ve protokol aynıdır ([§2637](#sec-2637)–2638). Bu grup iç mekân minyatürü, dönem portresi ve sticker setini kapsar.
 
 ---
 
+<a id="sec-2863"></a>
 # 2863. Çalışılmış örnek: `/photo-to-isometric-room` — izometrik oda A/B
 
 ## Kalıcı
@@ -4345,7 +4370,7 @@ Bu örnekte kontrol listeden gelir: eksiksiz malzeme sayımı ve ızgara kuralı
 
 ## Amaç
 
-Aynı oda fotoğrafını iki modelde `/photo-to-isometric-room` ile dönüştürüp farkları kaydetmek. Açılım promptu §2119'dadır.
+Aynı oda fotoğrafını iki modelde `/photo-to-isometric-room` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2119](33-katalog-aile-044-076.md#sec-2119)'dadır.
 
 ### ChatGPT varyantı
 
@@ -4379,7 +4404,7 @@ Her iki çıktıda da bakılacak üç nokta: mobilya dizimi aynı mı, duvar kes
 
 ## Amaç
 
-Aynı portreyi iki modelde `/yearbook-portrait` ile dönüştürüp farkları kaydetmek. Açılım promptu §2050'dedir.
+Aynı portreyi iki modelde `/yearbook-portrait` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2050](33-katalog-aile-044-076.md#sec-2050)'dedir.
 
 ### ChatGPT varyantı
 
@@ -4413,7 +4438,7 @@ Her iki çıktıda da bakılacak üç nokta: yüz tanınır mı, dönem detaylar
 
 ## Amaç
 
-Aynı karakteri iki modelde `/sticker-sheet` ile sete dönüştürüp farkları kaydetmek. Açılım promptu §1973'tedir.
+Aynı karakteri iki modelde `/sticker-sheet` ile sete dönüştürüp farkları kaydetmek. Açılım promptu [§1973](32-katalog-aile-024-043.md#sec-1973)'tedir.
 
 ### ChatGPT varyantı
 
@@ -4442,10 +4467,11 @@ Her iki çıktıda da bakılacak üç nokta: karakter bütün çıkartmalarda ay
 <a id="aile-144"></a>
 # Ders Konu Galerileri — Türkçe ve Sosyal Bilgiler
 
-aile-141'in devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, §18'e bağlı değerlendirme notu. Dil dersinde yazı denetimi (§995 kuralı) her bölümde ayrıca uygulanır; sosyal bilgilerde harita ve tarih bilgisi kaynaktan doğrulanır.
+aile-141'in devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, [§18](10-temeller-001-222.md#sec-18)'e bağlı değerlendirme notu. Dil dersinde yazı denetimi ([§995](30-katalog-aile-009-016.md#sec-995) kuralı) her bölümde ayrıca uygulanır; sosyal bilgilerde harita ve tarih bilgisi kaynaktan doğrulanır.
 
 ---
 
+<a id="sec-2866"></a>
 # 2866. `/punctuation-poster` — Türkçe: Noktalama İşaretleri (İlkokul)
 
 ## Seviye
@@ -4466,6 +4492,7 @@ aile-141'in devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, 
 
 ---
 
+<a id="sec-2867"></a>
 # 2867. `/verb-lanes` — Türkçe: Fiilde Kip ve Zaman (Ortaokul)
 
 ## Türkçe prompt
@@ -4482,6 +4509,7 @@ aile-141'in devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, 
 
 ---
 
+<a id="sec-2868"></a>
 # 2868. `/idiom-cards` — Türkçe: Deyimler Görsel Kartları (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -4514,6 +4542,7 @@ Sahne gerçek anlamı, yazı mecaz anlamı taşısın; ikisi karışırsa deyim 
 
 ---
 
+<a id="sec-2870"></a>
 # 2870. `/word-class-cards` — Türkçe: Sözcük Türleri Renk Kodlaması (Ortaokul)
 
 ## Türkçe prompt
@@ -4530,6 +4559,7 @@ Sahne gerçek anlamı, yazı mecaz anlamı taşısın; ikisi karışırsa deyim 
 
 ---
 
+<a id="sec-2871"></a>
 # 2871. `/regions-map` — Sosyal: Türkiye'nin Coğrafi Bölgeleri (Ortaokul)
 
 ## Seviye
@@ -4550,6 +4580,7 @@ Bölge sınırları ve adları güncel müfredatla doğrulanır; model sınır u
 
 ---
 
+<a id="sec-2872"></a>
 # 2872. `/civ-strip` — Sosyal: Anadolu Uygarlıkları Şeridi (Ortaokul)
 
 ## Türkçe prompt
@@ -4582,6 +4613,7 @@ Unvan-kademe eşleşmesi güncel mevzuata uygun olsun. Kutu hiyerarşisi tek yö
 
 ---
 
+<a id="sec-2874"></a>
 # 2874. `/climate-zones` — Sosyal: Türkiye'de İklim Tipleri (Ortaokul)
 
 ## Türkçe prompt
@@ -4598,6 +4630,7 @@ Unvan-kademe eşleşmesi güncel mevzuata uygun olsun. Kutu hiyerarşisi tek yö
 
 ---
 
+<a id="sec-2875"></a>
 # 2875. `/economy-symbols` — Sosyal: Ekonomik Faaliyetler Haritası (Ortaokul)
 
 ## Türkçe prompt
@@ -4617,10 +4650,11 @@ Simge-bölge eşleşmesi gerçek ekonomiyle uyuşsun; turizm simgesi sanayi böl
 <a id="aile-145"></a>
 # Ders Konu Galerileri — İngilizce ve Müzik
 
-aile-141 ve aile-144'ün devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, §18'e bağlı değerlendirme notu. Yabancı dilde örnek cümleler ders kitabıyla doğrulanır; müzikte nota ve ritim gösterimi standart notasyona uyar.
+aile-141 ve aile-144'ün devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, [§18](10-temeller-001-222.md#sec-18)'e bağlı değerlendirme notu. Yabancı dilde örnek cümleler ders kitabıyla doğrulanır; müzikte nota ve ritim gösterimi standart notasyona uyar.
 
 ---
 
+<a id="sec-2876"></a>
 # 2876. `/vocab-cards` — İngilizce: Kelime Kartları (İlkokul–Ortaokul)
 
 ## Seviye
@@ -4641,6 +4675,7 @@ Kelime-illüstrasyon eşleşmesi birebir olsun; yanlış resim yanlış öğreti
 
 ---
 
+<a id="sec-2877"></a>
 # 2877. `/tense-lanes` — İngilizce: Zamanlar Kulvarları (Ortaokul)
 
 ## Seviye
@@ -4661,6 +4696,7 @@ Ortaokul 6–8. sınıf — Tenses.
 
 ---
 
+<a id="sec-2878"></a>
 # 2878. `/dialogue-comic` — İngilizce: Diyalog Çizgi Romanı (Ortaokul)
 
 ## Türkçe prompt
@@ -4677,6 +4713,7 @@ Cümleler seviyeye uygun kısalıkta olsun; balon yazısı harf harf denetlenir.
 
 ---
 
+<a id="sec-2879"></a>
 # 2879. `/phonics-chart` — İngilizce: Ses-Harf Tablosu (İlkokul)
 
 ## Türkçe prompt
@@ -4709,6 +4746,7 @@ Saat-cümle-görsel üçlüsü tutarlı olsun; saat yediyse sahne sabah ışığ
 
 ---
 
+<a id="sec-2881"></a>
 # 2881. `/rhythm-bars` — Müzik: Ritim Kalıpları (İlkokul–Ortaokul)
 
 ## Seviye
@@ -4729,6 +4767,7 @@ Nota değerleri ve vuruş sayıları müzik teorisiyle birebir tutsun; tek yanl�
 
 ---
 
+<a id="sec-2882"></a>
 # 2882. `/instrument-families` — Müzik: Çalgı Aileleri (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -4745,6 +4784,7 @@ Nota değerleri ve vuruş sayıları müzik teorisiyle birebir tutsun; tek yanl�
 
 ---
 
+<a id="sec-2883"></a>
 # 2883. `/note-ladder` — Müzik: Nota Merdiveni (İlkokul)
 
 ## Türkçe prompt
@@ -4761,6 +4801,7 @@ Nota konumları porte üzerinde doğru çizgide olsun; tek çizgi kayması yanl�
 
 ---
 
+<a id="sec-2884"></a>
 # 2884. `/dynamics-signs` — Müzik: Gürlük İşaretleri (Ortaokul)
 
 ## Türkçe prompt
@@ -4796,10 +4837,11 @@ Dönem-besteci eşleşmesi müzik tarihiyle doğrulanır. Eser adları orijinal 
 <a id="aile-146"></a>
 # Ders Konu Galerileri — Beden Eğitimi ve Görsel Sanatlar
 
-Galeri dizisinin devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, §18'e bağlı değerlendirme notu. Hareket gösterimlerinde eklem ve denge gerçekçiliği (§75–77 mantığı), sanat gösterimlerinde teknik doğruluk aranır.
+Galeri dizisinin devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, [§18](10-temeller-001-222.md#sec-18)'e bağlı değerlendirme notu. Hareket gösterimlerinde eklem ve denge gerçekçiliği ([§75](10-temeller-001-222.md#sec-75)–77 mantığı), sanat gösterimlerinde teknik doğruluk aranır.
 
 ---
 
+<a id="sec-2886"></a>
 # 2886. `/warmup-cards` — Beden: Isınma Kartları (İlkokul–Ortaokul)
 
 ## Seviye
@@ -4836,6 +4878,7 @@ Kural sayısı oyunun gerçeğiyle tutsun; uydurma kural bahçede kavga çıkar�
 
 ---
 
+<a id="sec-2888"></a>
 # 2888. `/movement-sequence` — Beden: Hareket Sıralı Şeridi (Ortaokul)
 
 ## Türkçe prompt
@@ -4848,10 +4891,11 @@ Kural sayısı oyunun gerçeğiyle tutsun; uydurma kural bahçede kavga çıkar�
 
 ## Neye dikkat edilmeli?
 
-Figür bütün karelerde aynı kişi ve kıyafette olsun; zemin çizgisi sürekliliği korusun (§75–77). Kilit an anatomik olarak doğru yakalansın.
+Figür bütün karelerde aynı kişi ve kıyafette olsun; zemin çizgisi sürekliliği korusun ([§75](10-temeller-001-222.md#sec-75)–77). Kilit an anatomik olarak doğru yakalansın.
 
 ---
 
+<a id="sec-2889"></a>
 # 2889. `/team-positions` — Beden: Takım Dizilişi (Ortaokul)
 
 ## Türkçe prompt
@@ -4868,6 +4912,7 @@ Oyuncu sayısı branşa uygun olsun; eksik ya da fazla oyuncu şemayı çürüt�
 
 ---
 
+<a id="sec-2890"></a>
 # 2890. `/safety-poster` — Beden: Güvenlik Kuralları Posteri (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -4880,10 +4925,11 @@ Oyuncu sayısı branşa uygun olsun; eksik ya da fazla oyuncu şemayı çürüt�
 
 ## Neye dikkat edilmeli?
 
-Doğru-yanlış sahneleri aynı mekânda geçsin; değişen yalnız davranış olsun (§68 mantığı). Kurallar okulun gerçek kurallarıyla tutsun.
+Doğru-yanlış sahneleri aynı mekânda geçsin; değişen yalnız davranış olsun ([§68](10-temeller-001-222.md#sec-68) mantığı). Kurallar okulun gerçek kurallarıyla tutsun.
 
 ---
 
+<a id="sec-2891"></a>
 # 2891. `/color-wheel` — Görsel Sanatlar: Renk Çemberi (İlkokul–Ortaokul)
 
 ## Seviye
@@ -4904,6 +4950,7 @@ Renk konumları renk teorisiyle birebir tutsun; kayık çember yanlış öğreti
 
 ---
 
+<a id="sec-2892"></a>
 # 2892. `/perspective-demo` — Görsel Sanatlar: Perspektif Gösterimi (Ortaokul)
 
 ## Türkçe prompt
@@ -4920,6 +4967,7 @@ Bütün nesneler tek kaçış noktasına gitsin; iki kaçışlı çizim tek kaç
 
 ---
 
+<a id="sec-2893"></a>
 # 2893. `/pattern-design` — Görsel Sanatlar: Örüntü Tasarımı (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -4936,6 +4984,7 @@ Rapor birleşimi kusursuz olsun; bozuk rapor öğrenciyi değil şablonu suçlu 
 
 ---
 
+<a id="sec-2894"></a>
 # 2894. `/portrait-proportions` — Görsel Sanatlar: Portre Oranları (Ortaokul)
 
 ## Türkçe prompt
@@ -4952,6 +5001,7 @@ Oranlar standart öğretim oranlarıyla tutsun; modele özgü abartılı yüz ş
 
 ---
 
+<a id="sec-2895"></a>
 # 2895. `/printmaking-steps` — Görsel Sanatlar: Baskı Adımları (Ortaokul)
 
 ## Türkçe prompt
@@ -4971,10 +5021,11 @@ Alet tutuşları güvenli olsun; yanlış tutuş öğreten görsel derste kullan
 <a id="aile-147"></a>
 # Ders Konu Galerileri — Din Kültürü ve Bilişim
 
-Galeri dizisinin devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, §18'e bağlı değerlendirme notu. Din kültürü bölümlerinde saygılı ve doğru temsil esastır; hiçbir inanç karikatürize edilmez, ibadet mekân ve metinleri özenle denetlenir. Bilişimde arayüz ve donanım adları güncel gerçeklikle tutar.
+Galeri dizisinin devamıdır; kalıp aynıdır: seviye etiketi, hazır TR+EN prompt, [§18](10-temeller-001-222.md#sec-18)'e bağlı değerlendirme notu. Din kültürü bölümlerinde saygılı ve doğru temsil esastır; hiçbir inanç karikatürize edilmez, ibadet mekân ve metinleri özenle denetlenir. Bilişimde arayüz ve donanım adları güncel gerçeklikle tutar.
 
 ---
 
+<a id="sec-2896"></a>
 # 2896. `/values-poster` — Din Kültürü: Değerler Posteri (İlkokul–Ortaokul)
 
 ## Seviye
@@ -5079,10 +5130,11 @@ Eylem-cümle eşleşmesi birebir olsun; cümle karede gösterilmeyeni anlatması
 
 ## Neye dikkat edilmeli?
 
-Parça adları güncel Türkçe bilişim terimleriyle yazılsın. Numara-etiket eşleşmesi birebir olsun (§34 mantığı).
+Parça adları güncel Türkçe bilişim terimleriyle yazılsın. Numara-etiket eşleşmesi birebir olsun ([§34](10-temeller-001-222.md#sec-34) mantığı).
 
 ---
 
+<a id="sec-2902"></a>
 # 2902. `/safe-internet` — Bilişim: Güvenli İnternet Posteri (İlkokul–Ortaokul)
 
 ## Türkçe prompt
@@ -5095,7 +5147,7 @@ Parça adları güncel Türkçe bilişim terimleriyle yazılsın. Numara-etiket 
 
 ## Neye dikkat edilmeli?
 
-Korku dili kullanılmasın; kurallar koruyucu tonda anlatılsın. Doğru-yanlış sahneleri aynı mekânda geçsin (§68 mantığı).
+Korku dili kullanılmasın; kurallar koruyucu tonda anlatılsın. Doğru-yanlış sahneleri aynı mekânda geçsin ([§68](10-temeller-001-222.md#sec-68) mantığı).
 
 ---
 
@@ -5111,7 +5163,7 @@ Korku dili kullanılmasın; kurallar koruyucu tonda anlatılsın. Doğru-yanlı�
 
 ## Neye dikkat edilmeli?
 
-Akış kopmadan bitsin; her yol bir sona ulaşsın (§21 mantığı). Karar noktasının iki çıkışı da tanımlı olsun.
+Akış kopmadan bitsin; her yol bir sona ulaşsın ([§21](10-temeller-001-222.md#sec-21) mantığı). Karar noktasının iki çıkışı da tanımlı olsun.
 
 ---
 
@@ -5154,10 +5206,11 @@ Tekil presetler hazırdı; eksik olan bunları derse dizmekti. Her bölüm bir b
 
 ## Nasıl kullanılır (önemli)
 
-`/lesson-fen` gibi akış kısayolları modele yapıştırılmaz; bunlar okuma kısayoludur. Kullanım: tabloda ilgili adıma gelinir, o adımdaki kısayol kendi bölümünden açılıp oradaki hazır promptla üretim yapılır. Tek hamlede “bana 40 dakikalık ders üret” denmez; akış adım adım uygulanır (§19'un tek değişiklik disiplini burada da geçerlidir).
+`/lesson-fen` gibi akış kısayolları modele yapıştırılmaz; bunlar okuma kısayoludur. Kullanım: tabloda ilgili adıma gelinir, o adımdaki kısayol kendi bölümünden açılıp oradaki hazır promptla üretim yapılır. Tek hamlede “bana 40 dakikalık ders üret” denmez; akış adım adım uygulanır ([§19](10-temeller-001-222.md#sec-19)'un tek değişiklik disiplini burada da geçerlidir).
 
 ---
 
+<a id="sec-2906"></a>
 # 2906. `/lesson-fen` — Fen Dersi Akışı (40′)
 
 ## Hedef
@@ -5167,13 +5220,13 @@ Tekil presetler hazırdı; eksik olan bunları derse dizmekti. Her bölüm bir b
 | Dakika | Adım | Kısayol | Üretim notu |
 |---|---|---|---|
 | 0–5 | Çengel soru görseli | Tahta sorusu (görsel gerekmez) | Tek soru, tek görsel; cevabı verme |
-| 5–20 | Kavram görseli | Konu galerisi: `/cell-compare`, `/circuit-pair`, `/friction-strip` | §18 doğrulaması dersten önce yapılır |
+| 5–20 | Kavram görseli | Konu galerisi: `/cell-compare`, `/circuit-pair`, `/friction-strip` | [§18](10-temeller-001-222.md#sec-18) doğrulaması dersten önce yapılır |
 | 20–33 | Etkinlik föyü | `/worksheet-student` + `/teacher-overlay` | Föy, görseldeki kavramı ölçsün |
 | 33–40 | Çıkış kartı | `/exit-ticket` | 2 soru; ertesi dersin girişini besler |
 
 ## Neye dikkat edilmeli?
 
-Akışta en çok kırılan halka kavram-etkinlik uyumudur: föy, gösterilen görselin kavramını ölçmüyorsa akış kopar. Görseller dersten önce §18'den geçirilir, derste yalnızca kullanılır.
+Akışta en çok kırılan halka kavram-etkinlik uyumudur: föy, gösterilen görselin kavramını ölçmüyorsa akış kopar. Görseller dersten önce [§18](10-temeller-001-222.md#sec-18)'den geçirilir, derste yalnızca kullanılır.
 
 ---
 
@@ -5211,7 +5264,7 @@ Model ile alıştırma aynı örnekle başlasın; modelde elma, alıştırmada a
 
 ## Neye dikkat edilmeli?
 
-Posterdeki örnek ile öğrencinin üreteceği cümle türü aynı olsun. Yazı denetimi iki katmanlıdır: öğretmenin posteri (§995) ve öğrencinin cümlesi.
+Posterdeki örnek ile öğrencinin üreteceği cümle türü aynı olsun. Yazı denetimi iki katmanlıdır: öğretmenin posteri ([§995](30-katalog-aile-009-016.md#sec-995)) ve öğrencinin cümlesi.
 
 ---
 
@@ -5279,6 +5332,7 @@ Ders akışlarının (§aile-148) kullandığı yan ürünler burada tam preset 
 
 ---
 
+<a id="sec-2912"></a>
 # 2912. `/rules-poster` — Sınıf Kuralları Posteri
 
 ## Türkçe prompt
@@ -5327,6 +5381,7 @@ Rotasyon şeması panoda görünsün; aynı isimler aynı görevde takılı kalm
 
 ---
 
+<a id="sec-2915"></a>
 # 2915. `/exit-ticket` — Çıkış Kartı
 
 ## Türkçe prompt
@@ -5442,10 +5497,11 @@ Tarihler okul takvimiyle birebir tutsun; çelişen takvim güveni bitirir. Yazı
 <a id="aile-150"></a>
 # Öğrenci Prompt Okuryazarlığı — Öğrenciye Prompt Yazmayı Öğretmek
 
-Bu aile öğretmene değil, öğretmen aracılığıyla öğrenciye seslenir; sınıf panosuna asılacak ya da deftere yapıştırılacak dildedir. Altın kural §2655'tendir: gerçek yüz yok, kişisel fotoğraf yok, konu öğretmen onaylı. Güvenlik kuralı her bölümde tekrarlanır çünkü tekrar, bu yaş grubunda yöntemdir.
+Bu aile öğretmene değil, öğretmen aracılığıyla öğrenciye seslenir; sınıf panosuna asılacak ya da deftere yapıştırılacak dildedir. Altın kural [§2655](#sec-2655)'tendir: gerçek yüz yok, kişisel fotoğraf yok, konu öğretmen onaylı. Güvenlik kuralı her bölümde tekrarlanır çünkü tekrar, bu yaş grubunda yöntemdir.
 
 ---
 
+<a id="sec-2922"></a>
 # 2922. `/prompt-parts` — Promptun Üç Parçası
 
 ## Türkçe prompt
@@ -5474,7 +5530,7 @@ Bu aile öğretmene değil, öğretmen aracılığıyla öğrenciye seslenir; s�
 
 ## Neye dikkat edilmeli?
 
-Korkutma dili kullanılmasın; kurallar koruyucu tonda anlatılsın (§2902 dili). Poster her bilgisayar başında görünür olsun.
+Korkutma dili kullanılmasın; kurallar koruyucu tonda anlatılsın ([§2902](#sec-2902) dili). Poster her bilgisayar başında görünür olsun.
 
 ---
 
@@ -5528,10 +5584,11 @@ Günlük notla değil resimle de tutulabilsin; çizim kutusu yazı kadar yer kap
 
 ### Üçüncü grup (A/B)
 
-Aynı yöntemle üç örnek daha (§2637–2638 protokolü).
+Aynı yöntemle üç örnek daha ([§2637](#sec-2637)–2638 protokolü).
 
 ---
 
+<a id="sec-2927"></a>
 # 2927. Çalışılmış örnek: `/photo-to-board-game` — masa oyunu A/B
 
 ## Kalıcı
@@ -5540,7 +5597,7 @@ Aynı yöntemle üç örnek daha (§2637–2638 protokolü).
 
 ## Amaç
 
-Aynı fotoğrafı iki modelde `/photo-to-board-game` ile dönüştürüp farkları kaydetmek. Açılım promptu §2124'tedir.
+Aynı fotoğrafı iki modelde `/photo-to-board-game` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2124](33-katalog-aile-044-076.md#sec-2124)'tedir.
 
 ### ChatGPT varyantı
 
@@ -5574,7 +5631,7 @@ Her iki çıktıda da bakılacak üç nokta: oyun gerçekten oynanır mı, tema 
 
 ## Amaç
 
-Aynı selfie'yi iki modelde `/mirror-selfie` ile dönüştürüp farkları kaydetmek. Açılım promptu §2307'dedir.
+Aynı selfie'yi iki modelde `/mirror-selfie` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2307](34-katalog-aile-077-133.md#sec-2307)'dedir.
 
 ### ChatGPT varyantı
 
@@ -5608,7 +5665,7 @@ Her iki çıktıda da bakılacak üç nokta: yansıma geometrisi tutarlı mı, y
 
 ## Amaç
 
-Aynı sahneyi iki modelde `/tiny-world-jar` ile dönüştürüp farkları kaydetmek. Açılım promptu §2329'dadır.
+Aynı sahneyi iki modelde `/tiny-world-jar` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2329](34-katalog-aile-077-133.md#sec-2329)'dadır.
 
 ### ChatGPT varyantı
 
@@ -5641,14 +5698,15 @@ Bu ailede yeni kısayol icat edilmez; her bölüm bir branşın en sık kullanac
 
 ---
 
+<a id="sec-2930"></a>
 # 2930. Fen Paketi — 6 Kısayol
 
-- `/cell-compare` — hücre karşılaştırma gerektiğinde (§2847).
-- `/circuit-pair` — elektrik devrelerinde (§2848).
-- `/friction-strip` — deney föyü hazırlanırken (§2849).
-- `/worksheet-student` — öğrenci etkinlik sayfası için (§1288).
-- `/exit-ticket` — ders çıkışı kontrolü için (§2915).
-- `/digestion-journey` — sistemler ünitesinde (§2850).
+- `/cell-compare` — hücre karşılaştırma gerektiğinde ([§2847](#sec-2847)).
+- `/circuit-pair` — elektrik devrelerinde ([§2848](#sec-2848)).
+- `/friction-strip` — deney föyü hazırlanırken ([§2849](#sec-2849)).
+- `/worksheet-student` — öğrenci etkinlik sayfası için ([§1288](30-katalog-aile-009-016.md#sec-1288)).
+- `/exit-ticket` — ders çıkışı kontrolü için ([§2915](#sec-2915)).
+- `/digestion-journey` — sistemler ünitesinde ([§2850](#sec-2850)).
 
 ## Neye dikkat edilmeli?
 
@@ -5658,12 +5716,12 @@ Paket dışına taşan ihtiyaçta yeni ad icat edilmez; önce galeri (§aile-141
 
 # 2931. Matematik Paketi — 6 Kısayol
 
-- `/fraction-circles` — kesir anlatımında (§2852).
-- `/solid-nets` — cisim açılımında (§2853).
-- `/bar-chart-read` — grafik okumada (§2854).
-- `/area-grid` — alan ölçmede (§2856).
-- `/worksheet-student` — alıştırma seti için (§1288).
-- `/exit-ticket` — “kuralı bir cümleyle yaz” çıkışı için (§2915).
+- `/fraction-circles` — kesir anlatımında ([§2852](#sec-2852)).
+- `/solid-nets` — cisim açılımında ([§2853](#sec-2853)).
+- `/bar-chart-read` — grafik okumada ([§2854](#sec-2854)).
+- `/area-grid` — alan ölçmede ([§2856](#sec-2856)).
+- `/worksheet-student` — alıştırma seti için ([§1288](30-katalog-aile-009-016.md#sec-1288)).
+- `/exit-ticket` — “kuralı bir cümleyle yaz” çıkışı için ([§2915](#sec-2915)).
 
 ## Neye dikkat edilmeli?
 
@@ -5673,12 +5731,12 @@ Modelle alıştırma aynı örnekle başlar; paketteki sıra (model → alışt�
 
 # 2932. Türkçe Paketi — 6 Kısayol
 
-- `/punctuation-poster` — noktalama haftasında (§2866).
-- `/verb-lanes` — kip-zaman karşılaştırmada (§2867).
-- `/idiom-cards` — deyim serisinde (§2868).
-- `/word-class-cards` — sözcük türlerinde (§2870).
-- `/worksheet-student` — üretim etkinliği için (§1288).
-- `/exit-ticket` — akran kontrolü sonrası çıkış için (§2915).
+- `/punctuation-poster` — noktalama haftasında ([§2866](#sec-2866)).
+- `/verb-lanes` — kip-zaman karşılaştırmada ([§2867](#sec-2867)).
+- `/idiom-cards` — deyim serisinde ([§2868](#sec-2868)).
+- `/word-class-cards` — sözcük türlerinde ([§2870](#sec-2870)).
+- `/worksheet-student` — üretim etkinliği için ([§1288](30-katalog-aile-009-016.md#sec-1288)).
+- `/exit-ticket` — akran kontrolü sonrası çıkış için ([§2915](#sec-2915)).
 
 ## Neye dikkat edilmeli?
 
@@ -5688,12 +5746,12 @@ Posterdeki örnekle öğrencinin üreteceği cümle türü aynı tutulur. Yazı 
 
 # 2933. Sosyal Bilgiler Paketi — 6 Kısayol
 
-- `/regions-map` — bölgeler ünitesinde (§2871).
-- `/civ-strip` — uygarlıklar şeridinde (§2872).
-- `/climate-zones` — iklim tiplerinde (§2874).
-- `/economy-symbols` — ekonomik faaliyetlerde (§2875).
-- `/worksheet-student` — eşleştirme föyü için (§1288).
-- `/exit-ticket` — özet cümlesi çıkışı için (§2915).
+- `/regions-map` — bölgeler ünitesinde ([§2871](#sec-2871)).
+- `/civ-strip` — uygarlıklar şeridinde ([§2872](#sec-2872)).
+- `/climate-zones` — iklim tiplerinde ([§2874](#sec-2874)).
+- `/economy-symbols` — ekonomik faaliyetlerde ([§2875](#sec-2875)).
+- `/worksheet-student` — eşleştirme föyü için ([§1288](30-katalog-aile-009-016.md#sec-1288)).
+- `/exit-ticket` — özet cümlesi çıkışı için ([§2915](#sec-2915)).
 
 ## Neye dikkat edilmeli?
 
@@ -5703,12 +5761,12 @@ Harita okuryazarlığı sırayla kurulur: lejant, simge, yorum. Doğrudan yoruma
 
 # 2934. İngilizce Paketi — 6 Kısayol
 
-- `/vocab-cards` — ünite kelimelerinde (§2876).
-- `/tense-lanes` — zamanlar karşılaştırmada (§2877).
-- `/dialogue-comic` — konuşma etkinliğinde (§2878).
-- `/phonics-chart` — ses-harf çalışmasında (§2879).
-- `/worksheet-student` — mini yazma için (§1288).
-- `/exit-ticket` — 2 cümlelik günlük çıkışı için (§2915).
+- `/vocab-cards` — ünite kelimelerinde ([§2876](#sec-2876)).
+- `/tense-lanes` — zamanlar karşılaştırmada ([§2877](#sec-2877)).
+- `/dialogue-comic` — konuşma etkinliğinde ([§2878](#sec-2878)).
+- `/phonics-chart` — ses-harf çalışmasında ([§2879](#sec-2879)).
+- `/worksheet-student` — mini yazma için ([§1288](30-katalog-aile-009-016.md#sec-1288)).
+- `/exit-ticket` — 2 cümlelik günlük çıkışı için ([§2915](#sec-2915)).
 
 ## Neye dikkat edilmeli?
 
@@ -5718,11 +5776,11 @@ Görsel sesi bastırmasın; dinleme anında pano kapalı olabilir. Sözlü üret
 
 # 2935. Müzik Paketi — 5 Kısayol
 
-- `/rhythm-bars` — ritim kalıplarında (§2881).
-- `/note-ladder` — nota öğretiminde (§2883).
-- `/instrument-families` — çalgı sınıflandırmada (§2882).
-- `/dynamics-signs` — gürlük işaretlerinde (§2884).
-- `/exit-ticket` — dinleme günlüğü çıkışı için (§2915).
+- `/rhythm-bars` — ritim kalıplarında ([§2881](#sec-2881)).
+- `/note-ladder` — nota öğretiminde ([§2883](#sec-2883)).
+- `/instrument-families` — çalgı sınıflandırmada ([§2882](#sec-2882)).
+- `/dynamics-signs` — gürlük işaretlerinde ([§2884](#sec-2884)).
+- `/exit-ticket` — dinleme günlüğü çıkışı için ([§2915](#sec-2915)).
 
 ## Neye dikkat edilmeli?
 
@@ -5732,11 +5790,11 @@ Pano ile icra aynı anda olmaz: önce bak-dinle, sonra çal.
 
 # 2936. Beden Eğitimi Paketi — 5 Kısayol
 
-- `/warmup-cards` — ısınma serisinde (§2886).
-- `/movement-sequence` — hareket öğretiminde (§2888).
-- `/team-positions` — diziliş şemasında (§2889).
-- `/safety-poster` — güvenlik hatırlatmada (§2890).
-- `/exit-ticket` — nabız yoklaması çıkışı için (§2915).
+- `/warmup-cards` — ısınma serisinde ([§2886](#sec-2886)).
+- `/movement-sequence` — hareket öğretiminde ([§2888](#sec-2888)).
+- `/team-positions` — diziliş şemasında ([§2889](#sec-2889)).
+- `/safety-poster` — güvenlik hatırlatmada ([§2890](#sec-2890)).
+- `/exit-ticket` — nabız yoklaması çıkışı için ([§2915](#sec-2915)).
 
 ## Neye dikkat edilmeli?
 
@@ -5746,11 +5804,11 @@ Pozlar anatomik olarak mümkün çizilir; eklemi zorlayan görsel derste kullan�
 
 # 2937. Görsel Sanatlar Paketi — 5 Kısayol
 
-- `/color-wheel` — renk bilgisinde (§2891).
-- `/perspective-demo` — perspektif anlatımında (§2892).
-- `/pattern-design` — örüntü şablonunda (§2893).
-- `/portrait-proportions` — oran şemasında (§2894).
-- `/printmaking-steps` — baskı sürecinde (§2895).
+- `/color-wheel` — renk bilgisinde ([§2891](#sec-2891)).
+- `/perspective-demo` — perspektif anlatımında ([§2892](#sec-2892)).
+- `/pattern-design` — örüntü şablonunda ([§2893](#sec-2893)).
+- `/portrait-proportions` — oran şemasında ([§2894](#sec-2894)).
+- `/printmaking-steps` — baskı sürecinde ([§2895](#sec-2895)).
 
 ## Neye dikkat edilmeli?
 
@@ -5760,10 +5818,11 @@ Pozlar anatomik olarak mümkün çizilir; eklemi zorlayan görsel derste kullan�
 
 ### Dördüncü grup (A/B)
 
-Aynı yöntemle üç örnek daha (§2637–2638 protokolü).
+Aynı yöntemle üç örnek daha ([§2637](#sec-2637)–2638 protokolü).
 
 ---
 
+<a id="sec-2938"></a>
 # 2938. Çalışılmış örnek: `/fashion-doll` — fashion doll A/B
 
 ## Kalıcı
@@ -5772,7 +5831,7 @@ Aynı yöntemle üç örnek daha (§2637–2638 protokolü).
 
 ## Amaç
 
-Aynı selfie'yi iki modelde `/fashion-doll` ile dönüştürüp farkları kaydetmek. Açılım promptu §2340'tadır.
+Aynı selfie'yi iki modelde `/fashion-doll` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2340](34-katalog-aile-077-133.md#sec-2340)'tadır.
 
 ### ChatGPT varyantı
 
@@ -5806,7 +5865,7 @@ Her iki çıktıda da bakılacak üç nokta: yüz tanınır mı, oranlar oyuncak
 
 ## Amaç
 
-Aynı selfie'yi iki modelde `/korean-four-cut` ile dönüştürüp farkları kaydetmek. Açılım promptu §2361'dedir.
+Aynı selfie'yi iki modelde `/korean-four-cut` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2361](34-katalog-aile-077-133.md#sec-2361)'dedir.
 
 ### ChatGPT varyantı
 
@@ -5840,7 +5899,7 @@ Her iki çıktıda da bakılacak üç nokta: dört karede kimlik aynı mı, ış
 
 ## Amaç
 
-Aynı fotoğrafı iki modelde `/newspaper-front-page` ile dönüştürüp farkları kaydetmek. Açılım promptu §2370'tedir.
+Aynı fotoğrafı iki modelde `/newspaper-front-page` ile dönüştürüp farkları kaydetmek. Açılım promptu [§2370](34-katalog-aile-077-133.md#sec-2370)'tedir.
 
 ### ChatGPT varyantı
 
@@ -5873,6 +5932,7 @@ Bu aile okuma sırası önerir; 2.900 bölümlük rehber ilk günden taranmaz. �
 
 ---
 
+<a id="sec-2941"></a>
 # 2941. 15 Dakikada İlk Görsel
 
 Rehberi ilk kez açan öğretmen şunu yapar:
@@ -5880,7 +5940,7 @@ Rehberi ilk kez açan öğretmen şunu yapar:
 1. Branş paketini bulur (aile-151): kendi branşının 5–6 kısayolunu okur.
 2. Paketten tek kısayol seçer (örn. `/fraction-circles`), bölümündeki hazır promptu kopyalar.
 3. Kendi konusuna uyarlar: yalnız köşeli parantezli yeri değiştirir, geri kalan cümleye dokunmaz.
-4. Üretir ve §18'in üç sorusunu sorar: etiket doğru yerde mi, eksik kavram var mı, seviye uygun mu?
+4. Üretir ve [§18](10-temeller-001-222.md#sec-18)'in üç sorusunu sorar: etiket doğru yerde mi, eksik kavram var mı, seviye uygun mu?
 
 ## Neye dikkat edilmeli?
 
@@ -5888,6 +5948,7 @@ Rehberi ilk kez açan öğretmen şunu yapar:
 
 ---
 
+<a id="sec-2942"></a>
 # 2942. İlk Hafta: 5 Preset Kuralı
 
 İlk hafta her ders için en fazla 5 preset kullanılır: 1 kavram görseli, 1 etkinlik föyü, 1 çıkış kartı ve en fazla 2 yedek. Yedekler paketin dışından seçilmez. Hafta sonunda çıkış kartları toplanıp hangi kavramın oturmadığı bulunur; ikinci hafta pakete yalnız o kavramın alternatifi eklenir.
@@ -5900,11 +5961,11 @@ Preset sayısı değil, tekrar ritmi öğretir. Aynı kavram iki farklı presetl
 
 # 2943. Yeni Başlayanların 5 Hatası
 
-1. **Sıfat yığmak:** “güzel, detaylı, muhteşem” yazmak yerine yapı cümlesi eklenir (§17).
+1. **Sıfat yığmak:** “güzel, detaylı, muhteşem” yazmak yerine yapı cümlesi eklenir ([§17](10-temeller-001-222.md#sec-17)).
 2. **Etiketsiz üretmek:** Türkçe etiketsiz görsel sınıfta kullanılmaz; prompta etiket dili yazılır.
-3. **Doğrulamadan dağıtmak:** Her görsel §18'den geçmeden öğrenciye ulaşmaz.
-4. **Gerçek yüzle denemek:** Denemeler kurgusal özneyle yapılır; öğrenci fotoğrafı ilk gün araca yüklenmez (§2655).
-5. **Hepsini bir derste denemek:** Haftada 5 preset sınırı konur (§2942).
+3. **Doğrulamadan dağıtmak:** Her görsel [§18](10-temeller-001-222.md#sec-18)'den geçmeden öğrenciye ulaşmaz.
+4. **Gerçek yüzle denemek:** Denemeler kurgusal özneyle yapılır; öğrenci fotoğrafı ilk gün araca yüklenmez ([§2655](#sec-2655)).
+5. **Hepsini bir derste denemek:** Haftada 5 preset sınırı konur ([§2942](#sec-2942)).
 
 ## Neye dikkat edilmeli?
 
@@ -5919,6 +5980,7 @@ Google'ın Eylül 2026'da Workspace'e açtığı Pics aracı, Nano Banana modeli
 
 ---
 
+<a id="sec-2944"></a>
 # 2944. Pics'e Giriş — Nerede, Kimler İçin
 
 ## Kalıcı
@@ -5929,7 +5991,7 @@ Pics bağımsız web uygulaması olarak ve Docs/Slides içi panel olarak çalı�
 
 ## Neye dikkat edilmeli?
 
-Kişisel hesapla kurum hesabının yetkisi farklı olabilir; ders dosyasına geçmeden önce okul hesabında erişim test edilir. Öğrenci verisi içeren dosyalarda kurumun veri politikası geçerlidir (§2655).
+Kişisel hesapla kurum hesabının yetkisi farklı olabilir; ders dosyasına geçmeden önce okul hesabında erişim test edilir. Öğrenci verisi içeren dosyalarda kurumun veri politikası geçerlidir ([§2655](#sec-2655)).
 
 ---
 
@@ -5939,13 +6001,13 @@ Kişisel hesapla kurum hesabının yetkisi farklı olabilir; ders dosyasına ge�
 
 ## Neye dikkat edilmeli?
 
-Belgeye yerleşen her görsel §18'den geçirilir (etiket, eksik kavram, seviye); hızlı üretim hızlı doğrulamayı ortadan kaldırmaz. Etiket dili promptta açıkça yazılır, sonradan eklenmez.
+Belgeye yerleşen her görsel [§18](10-temeller-001-222.md#sec-18)'den geçirilir (etiket, eksik kavram, seviye); hızlı üretim hızlı doğrulamayı ortadan kaldırmaz. Etiket dili promptta açıkça yazılır, sonradan eklenmez.
 
 ---
 
 # 2946. Slides İçinde Sunum Görseli Döngüsü
 
-Slaytın notuna istenen görsel yazılır, üretim slayta yerleşir; revizyon “şunu değiştir” cümlesiyle aynı panelden yapılır. Tutarlı seri için (aynı ünitenin 5 slaytı) ilk onaylanan görsel referans gösterilerek devam edilir (§2625 mantığı).
+Slaytın notuna istenen görsel yazılır, üretim slayta yerleşir; revizyon “şunu değiştir” cümlesiyle aynı panelden yapılır. Tutarlı seri için (aynı ünitenin 5 slaytı) ilk onaylanan görsel referans gösterilerek devam edilir ([§2625](#sec-2625) mantığı).
 
 ## Neye dikkat edilmeli?
 
@@ -5955,7 +6017,7 @@ Seride stil kayması olursa referans kare sabitlenip slaytlar tek tek üretilir.
 
 # 2947. Nesne Ayırma ile Düzenleme
 
-Pics'in ayırt edici işlevi nesne ayırmadır (object segmentation): görseldeki tek öğe seçilip yalnız o değiştirilir, geri kalan korunur. Kullanım: Düzeltilecek öğe adlandırılır (“soldaki ikinci etiket”), değişiklik tek cümleyle yazılır; §19'un tek değişiklik disiplini burada da geçerlidir.
+Pics'in ayırt edici işlevi nesne ayırmadır (object segmentation): görseldeki tek öğe seçilip yalnız o değiştirilir, geri kalan korunur. Kullanım: Düzeltilecek öğe adlandırılır (“soldaki ikinci etiket”), değişiklik tek cümleyle yazılır; [§19](10-temeller-001-222.md#sec-19)'un tek değişiklik disiplini burada da geçerlidir.
 
 ## Neye dikkat edilmeli?
 
@@ -5965,7 +6027,7 @@ Ayırma her dokuda çalışmaz; ince detay ve iç içe nesnelerde seçim taşar.
 
 # 2948. Görseldeki Yazıyı Düzeltme ve Çevirme
 
-Pics görseldeki yazıyı fontu koruyarak düzeltir ve çevirir. Kullanım: Düzeltilen kelime tırnak içinde aynen yazılır, yeni metin ayrıca verilir. Türkçe karakterler (ğ, ş, ı, ç) düzeltme sonrası harf harf denetlenir (§995 kuralı).
+Pics görseldeki yazıyı fontu koruyarak düzeltir ve çevirir. Kullanım: Düzeltilen kelime tırnak içinde aynen yazılır, yeni metin ayrıca verilir. Türkçe karakterler (ğ, ş, ı, ç) düzeltme sonrası harf harf denetlenir ([§995](30-katalog-aile-009-016.md#sec-995) kuralı).
 
 ## Neye dikkat edilmeli?
 
@@ -5975,11 +6037,11 @@ Uzun cümlelerin düzeltilmesi harf uydurma riskini artırır; başlık ve etike
 
 # 2949. Varyant Üretimi ve Seçim Disiplini
 
-Pics tek prompttan çoklu varyant üretir. Kullanım: 3–4 varyant istenir, seçim §18'in üç sorusuyla yapılır (etiket, eksik kavram, seviye). Seçilmeyen varyantlar silinir; arşivde “belki kullanılır” dosyası biriktirilmez.
+Pics tek prompttan çoklu varyant üretir. Kullanım: 3–4 varyant istenir, seçim [§18](10-temeller-001-222.md#sec-18)'in üç sorusuyla yapılır (etiket, eksik kavram, seviye). Seçilmeyen varyantlar silinir; arşivde “belki kullanılır” dosyası biriktirilmez.
 
 ## Neye dikkat edilmeli?
 
-Varyant çokluğu karar yorgunluğu doğurur; tur başına tek seçim yapılır. Seçilen görselin promptu ve tarihi kaydedilir (A/B kaydı, §2637).
+Varyant çokluğu karar yorgunluğu doğurur; tur başına tek seçim yapılır. Seçilen görselin promptu ve tarihi kaydedilir (A/B kaydı, [§2637](#sec-2637)).
 
 ---
 
@@ -5990,19 +6052,20 @@ Bu aile, biçim seçimlerinin altındaki öğrenme bilimini metin düzeyinde top
 
 ---
 
+<a id="sec-2950"></a>
 # 2950. Bilişsel Yük Kontrol Listesi (Mayer İlkeleriyle)
 
 Çoklu ortamla öğrenme araştırmasının (Mayer) prompt karşılığı:
 
-- [ ] **Gereksizi ele:** Konuyla ilgisiz her öğe silinir (slop filtresi §163'ün pedagojik adı budur).
+- [ ] **Gereksizi ele:** Konuyla ilgisiz her öğe silinir (slop filtresi [§163](10-temeller-001-222.md#sec-163)'ün pedagojik adı budur).
 - [ ] **İşaretle:** Önemli öğe ok, renk ya da numarayla vurgulanır; vurgusuz görselde öğrenci neye bakacağını bilemez.
 - [ ] **Yakın tut:** Etiket, gösterdiği yapıya bitişik durur; lejant avı bilişsel yükü artırır.
-- [ ] **Böl:** Karmaşık süreç tek kareye değil, adım dizisine bölünür (§9, §60).
+- [ ] **Böl:** Karmaşık süreç tek kareye değil, adım dizisine bölünür ([§9](10-temeller-001-222.md#sec-9), [§60](10-temeller-001-222.md#sec-60)).
 - [ ] **Önce sözlü, sonra yazılı:** Anlatım görseli, açıklama metninden önce gelir; ikisi aynı anda verilmez.
 
 ## Neye dikkat edilmeli?
 
-Bu liste §18'in yerine değil, önüne geçer: önce yük azaltılır, sonra doğruluk denetlenir. Beş maddenin üçü tutmuyorsa biçim değiştirilir ([§19](10-temeller-001-222.md#sec-19)).
+Bu liste [§18](10-temeller-001-222.md#sec-18)'in yerine değil, önüne geçer: önce yük azaltılır, sonra doğruluk denetlenir. Beş maddenin üçü tutmuyorsa biçim değiştirilir ([§19](10-temeller-001-222.md#sec-19)).
 
 ---
 
@@ -6032,9 +6095,9 @@ Hedef düzeye göre biçim seçilir; konu kadar düzey de belirleyicidir:
 | Düzey | Uygun biçimler | Örnek kısayol |
 |---|---|---|
 | Hatırlama | Etiketli şema, kart destesi | `/label-lock` düzeni, kart destesi |
-| Anlama | Kavram haritası, karşılaştırma | Kavram haritası (§24), `/cell-compare` |
+| Anlama | Kavram haritası, karşılaştırma | Kavram haritası ([§24](10-temeller-001-222.md#sec-24)), `/cell-compare` |
 | Uygulama | Worksheet, doldurulabilir diyagram | `/worksheet-student`, `/fillable-diagram` |
-| Analiz | Önce/sonra, neden-sonuç | `/matched-pair`, neden-sonuç diyagramı (§54) |
+| Analiz | Önce/sonra, neden-sonuç | `/matched-pair`, neden-sonuç diyagramı ([§54](10-temeller-001-222.md#sec-54)) |
 | Değerlendirme | Rubrik, akran kontrolü | `/rubric-visual`, `/exit-ticket` |
 | Yaratma | Öğrenci üretimi posteri | `/my-first-poster`, `/prompt-journal` |
 
@@ -6044,6 +6107,7 @@ Düzey atlanmaz: değerlendirme görseli, hatırlama görseli olmadan verilmez. 
 
 ---
 
+<a id="sec-2953"></a>
 # 2953. UDL Uyarlamaları — Herkes İçin Görsel
 
 Evrensel tasarım (UDL) için prompta eklenen değiştirici cümle kalıpları:
@@ -6063,10 +6127,11 @@ Uyarlama, basitleştirme değildir: kavram korunur, yük azaltılır. Sınıfın
 <a id="aile-155"></a>
 # Ders Konu Galerileri — Okul Öncesi
 
-Galeri dizisinin en küçük yaş grubudur; kalıp aynıdır ama kurallar serttir: yazı en aza iner, tek karede tek kavram olur, yönergeler öğretmene Türkçedir (çocuk okumaz, bakar ve yapar). UDL ilkeleri (§2953) burada varsayılandır, istisna değil.
+Galeri dizisinin en küçük yaş grubudur; kalıp aynıdır ama kurallar serttir: yazı en aza iner, tek karede tek kavram olur, yönergeler öğretmene Türkçedir (çocuk okumaz, bakar ve yapar). UDL ilkeleri ([§2953](#sec-2953)) burada varsayılandır, istisna değil.
 
 ---
 
+<a id="sec-2954"></a>
 # 2954. `/toddler-colors` — Renkleri Öğreniyorum (Okul Öncesi)
 
 ## Seviye

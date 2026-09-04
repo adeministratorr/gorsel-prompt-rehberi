@@ -877,6 +877,7 @@ Daha doğru yöntem:
 
 ---
 
+<a id="sec-722"></a>
 # 722. Travel ephemera slash-style kısa adları
 
 Bunlar yine **resmî ChatGPT komutları değildir**; rehber içi hızlı prompt etiketleridir.
@@ -962,6 +963,7 @@ Bu sınıflandırma ileride yüzlerce terimi yönetmemizi kolaylaştırır.
 
 ---
 
+<a id="sec-724"></a>
 # 724. Şehir skyline pop-up kartı — City Skyline Pop-up Card
 
 *Rehber kısayolu: `/city-pop-up`.*

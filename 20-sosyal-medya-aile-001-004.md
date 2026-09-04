@@ -1,5 +1,6 @@
 > [← Genel İçindekiler](gorsel-prompt-rehberi.md) · [Süleyman’a Umut Ol — Dayanışma Çağrısı](gorsel-prompt-rehberi.md#suleymana-umut-ol)
 
+<a id="sec-471"></a>
 # 471. Kasıtlı çirkin pastel doodle — Funny Ugly Crayon Doodle
 
 ## Trend
@@ -496,6 +497,7 @@ Fotoğraftaki kişiyi belirli bir tarihsel döneme taşır.
 
 ---
 
+<a id="sec-499"></a>
 # 499. Anime ikizi — Anime Twin / Illustrated Double
 
 ## Trend
@@ -3436,6 +3438,7 @@ Daha doğru yaklaşım:
 
 ---
 
+<a id="sec-667"></a>
 # 667. Vintage seyahat kartı hızlı kısayolları
 
 Rehberin gayriresmî slash-style sisteminde:
