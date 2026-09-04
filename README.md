@@ -15,6 +15,22 @@ Bu rehber aynı zamanda bir dayanışma aracıdır. DMD hastası Süleyman Akın
 
 - Güncel bağış kanalları: https://taplink.cc/dmd_suleyman
 - Kampanya hesabı: **@dmd_suleyman** (Instagram)
+
+### Türkiye’den Bağış (Valilik Onaylı)
+
+**Banka:** Halkbank · **Alıcı:** `SERGEN AKIN` (Süleyman’ın babası) · Alıcı adına yalnızca `SERGEN AKIN` yazınız.
+
+- **TL (₺):** `TR27 0001 2009 3160 0001 0769 72`
+- **Euro (€):** `TR17 0001 2009 3160 0035 0042 60`
+- **Dolar ($):** `TR24 0001 2009 3160 0023 0044 58`
+- **SWIFT:** `TRHBTR2A`
+
+### Yurt Dışından Bağış
+
+- **SMA Children Vakfı:** Alıcı `SMA Children` · IBAN `NL33 BUNQ 2184 1943 52` · BIC `BUNQNL2A` · Açıklama: `Süleyman Akın`
+- **PayPal:** https://www.paypal.com/donate?campaign_id=BEKURZJCVWCPU
+- **GoFundMe:** https://www.gofundme.com/f/help-suleyman-akn?attribution_id=sl:ce05fe03-c29d-4feb-918a-ab838c73c7c8
+- **Kartla (Shopier):** https://www.shopier.com/dmdsuleymanakin
 - Ayrıntılı hesap bilgileri ve hikâye: [`gorsel-prompt-rehberi.md`](gorsel-prompt-rehberi.md#suleymana-umut-ol) başındaki dayanışma çağrısında.
 
 İmkânınız varsa bağış yapın; yoksa hikâyeyi en az 10 kişiye ve en az 1 topluluğa ulaştırın.
