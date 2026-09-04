@@ -63,6 +63,13 @@
 - Evrim yalnızca müfredat biyolojisi çerçevesinde, hiyerarşik dil uyarısıyla işlenir.
 - Savaş yüceltmesi yoktur; §4770 ve §4355 açıkça yasaklar. Kültür indirgemeciliği §1563'te filtrelenir.
 - §2658 kontrol listesine dinî/millî hassasiyet maddesi eklendi.
+
+## 2026-09-04 — GitHub yayını
+
+- Depo: https://github.com/adeministratorr/gorsel-prompt-rehberi (public).
+- README.md yazıldı (kitap kimliği, dayanışma özeti, içerik tablosu, lisans özeti).
+- İlk sürüm itildi: 11 içerik dosyası + README + CHANGELOG + görsel listesi (yedekler ve .zcode hariç).
+- Konu etiketleri eklendi: prompt-engineering, image-generation, education, turkish, teachers, gemini, chatgpt.
 - Galeri bölümlerine (§2847–2856, §2866–2875) `/kısayol` adları verildi (20 preset slash sistemine katıldı).
 
 ## Bilinen ve bilinçli bırakılanlar
